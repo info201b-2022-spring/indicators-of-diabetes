@@ -1,0 +1,1258 @@
+Cost of Cancer Care by Phase of Care,,,,,,,,,
+Costs ($) per year in millions of 2010 dollars,,,,,,,,,
+See http://costprojections.cancer.gov,,,,,,,,,
+Cancer Site,Year,Sex,Age,Incidence and Survival Assumptions,Annual Cost Increase (applied to initial and last phases),Total Costs,Initial Year After Diagnosis Cost,Continuing Phase Cost,Last Year of Life Cost
+AllSites,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,124565.6,40463.5,46642.8,37459.2
+AllSites,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,122420.8,38552.7,46671.9,37196.3
+AllSites,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,125397.7,40463.5,47136.3,37797.9
+AllSites,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,123236.3,38552.7,47155.7,37527.8
+AllSites,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,123236.3,38552.7,47155.7,37527.8
+AllSites,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,123236.3,38552.7,47155.7,37527.8
+Bladder,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3980.7,978.7,1895.8,1106.3
+Bladder,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3885.2,923.3,1872.3,1089.7
+Bladder,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3987.7,978.7,1900.2,1108.8
+Bladder,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3891.9,923.3,1876.5,1092.2
+Bladder,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3891.9,923.3,1876.5,1092.2
+Bladder,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3891.9,923.3,1876.5,1092.2
+Brain,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4469.3,1262.2,1062.9,2144.2
+Brain,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4437.6,1239.1,1061.6,2136.8
+Brain,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4501.8,1262.2,1070.5,2169.2
+Brain,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4469.7,1239.1,1069.1,2161.5
+Brain,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4469.7,1239.1,1069.1,2161.5
+Brain,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4469.7,1239.1,1069.1,2161.5
+Breast,2010,Females,All ages,"Incidence, Survival at constant rate",0%,16499.8,6037.6,6742.4,3719.9
+Breast,2010,Females,All ages,"Incidence follows recent trend, Survival constant",0%,15920.9,5634.7,6639.5,3646.6
+Breast,2010,Females,All ages,"Survival follows recent trend, Incidence constant",0%,16512.2,6037.6,6750.1,3724.5
+Breast,2010,Females,All ages,"Incidence, Survival follow recent trends",0%,15932.6,5634.7,6646.9,3651.0
+Breast,2010,Females,All ages,"Incidence, Survival follow recent trends",2%,15932.6,5634.7,6646.9,3651.0
+Breast,2010,Females,All ages,"Incidence, Survival follow recent trends",5%,15932.6,5634.7,6646.9,3651.0
+Cervix,2010,Females,All ages,"Incidence, Survival at constant rate",0%,1545.7,492.5,368.3,684.9
+Cervix,2010,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1394.1,386.0,355.7,652.4
+Cervix,2010,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.0,492.5,368.4,685.2
+Cervix,2010,Females,All ages,"Incidence, Survival follow recent trends",0%,1394.4,386.0,355.7,652.6
+Cervix,2010,Females,All ages,"Incidence, Survival follow recent trends",2%,1394.4,386.0,355.7,652.6
+Cervix,2010,Females,All ages,"Incidence, Survival follow recent trends",5%,1394.4,386.0,355.7,652.6
+Colorectal,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14140.5,5928.9,3904.6,4307.0
+Colorectal,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13304.0,5284.2,3845.7,4174.1
+Colorectal,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14186.2,5928.9,3924.6,4332.8
+Colorectal,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13346.2,5284.2,3864.1,4197.9
+Colorectal,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13346.2,5284.2,3864.1,4197.9
+Colorectal,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,13346.2,5284.2,3864.1,4197.9
+Esophagus,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1333.3,577.8,146.5,609.0
+Esophagus,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1318.9,568.0,145.9,605.0
+Esophagus,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1370.7,577.8,154.1,638.8
+Esophagus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1356.0,568.0,153.4,634.6
+Esophagus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1356.0,568.0,153.4,634.6
+Esophagus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1356.0,568.0,153.4,634.6
+Head_Neck,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3635.7,1080.6,1007.7,1547.4
+Head_Neck,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3517.5,996.8,999.0,1521.7
+Head_Neck,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3640.6,1080.6,1009.5,1550.5
+Head_Neck,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3522.2,996.8,1000.7,1524.7
+Head_Neck,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3522.2,996.8,1000.7,1524.7
+Head_Neck,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3522.2,996.8,1000.7,1524.7
+Kidney,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3798.3,1126.3,1586.5,1085.5
+Kidney,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3976.2,1260.2,1605.4,1110.7
+Kidney,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3816.2,1126.3,1597.0,1092.9
+Kidney,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3995.5,1260.2,1616.7,1118.7
+Kidney,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3995.5,1260.2,1616.7,1118.7
+Kidney,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3995.5,1260.2,1616.7,1118.7
+Leukemia,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5438.1,798.2,2097.6,2542.3
+Leukemia,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5309.2,762.4,2060.5,2486.3
+Leukemia,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5470.0,798.2,2111.1,2560.7
+Leukemia,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5339.8,762.4,2073.4,2504.0
+Leukemia,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5339.8,762.4,2073.4,2504.0
+Leukemia,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5339.8,762.4,2073.4,2504.0
+Lung,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12120.7,5240.7,1850.0,5030.0
+Lung,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11349.5,4738.5,1817.4,4793.7
+Lung,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12196.0,5240.7,1870.8,5084.6
+Lung,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11418.4,4738.5,1836.4,4843.5
+Lung,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,11418.4,4738.5,1836.4,4843.5
+Lung,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,11418.4,4738.5,1836.4,4843.5
+Lymphoma,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12142.5,3162.8,4890.0,4089.7
+Lymphoma,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12086.3,3119.6,4884.9,4081.7
+Lymphoma,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12186.1,3162.8,4913.0,4110.3
+Lymphoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12129.4,3119.6,4907.7,4102.1
+Lymphoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12129.4,3119.6,4907.7,4102.1
+Lymphoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,12129.4,3119.6,4907.7,4102.1
+Melanoma,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2363.2,490.2,1542.4,330.6
+Melanoma,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2460.3,562.9,1555.2,342.2
+Melanoma,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2364.9,490.2,1543.7,331.0
+Melanoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2462.2,562.9,1556.6,342.7
+Melanoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2462.2,562.9,1556.6,342.7
+Melanoma,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2462.2,562.9,1556.6,342.7
+Ovary,2010,Females,All ages,"Incidence, Survival at constant rate",0%,5116.1,1391.2,1654.8,2070.1
+Ovary,2010,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4702.6,1077.6,1630.2,1994.7
+Ovary,2010,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5140.8,1391.2,1664.0,2085.6
+Ovary,2010,Females,All ages,"Incidence, Survival follow recent trends",0%,4723.6,1077.6,1638.1,2007.9
+Ovary,2010,Females,All ages,"Incidence, Survival follow recent trends",2%,4723.6,1077.6,1638.1,2007.9
+Ovary,2010,Females,All ages,"Incidence, Survival follow recent trends",5%,4723.6,1077.6,1638.1,2007.9
+Pancreas,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2266.0,1439.0,99.1,727.9
+Pancreas,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2251.0,1428.3,98.9,723.8
+Pancreas,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2317.6,1439.0,109.8,768.8
+Pancreas,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2302.3,1428.3,109.5,764.5
+Pancreas,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2302.3,1428.3,109.5,764.5
+Pancreas,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2302.3,1428.3,109.5,764.5
+Prostate,2010,Males,All ages,"Incidence, Survival at constant rate",0%,11848.1,4547.3,6187.8,1113.0
+Prostate,2010,Males,All ages,"Incidence follows recent trend, Survival constant",0%,11667.0,4393.4,6164.4,1109.2
+Prostate,2010,Males,All ages,"Survival follows recent trend, Incidence constant",0%,11854.1,4547.3,6193.0,1113.7
+Prostate,2010,Males,All ages,"Incidence, Survival follow recent trends",0%,11672.9,4393.4,6169.5,1109.9
+Prostate,2010,Males,All ages,"Incidence, Survival follow recent trends",2%,11672.9,4393.4,6169.5,1109.9
+Prostate,2010,Males,All ages,"Incidence, Survival follow recent trends",5%,11672.9,4393.4,6169.5,1109.9
+Stomach,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1820.1,832.8,230.1,757.3
+Stomach,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1697.0,746.5,226.2,724.3
+Stomach,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1839.8,832.8,234.1,773.0
+Stomach,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1715.3,746.5,229.9,738.9
+Stomach,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1715.3,746.5,229.9,738.9
+Stomach,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1715.3,746.5,229.9,738.9
+Uterus,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2622.6,1060.3,791.5,770.7
+Uterus,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2544.5,1000.8,783.4,760.2
+Uterus,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2622.2,1060.3,791.2,770.7
+Uterus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2544.2,1000.8,783.1,760.2
+Uterus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2544.2,1000.8,783.1,760.2
+Uterus,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2544.2,1000.8,783.1,760.2
+Other,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,19424.8,4016.4,10584.7,4823.7
+Other,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,20599.0,4430.3,10925.6,5243.1
+Other,2010,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,19844.7,4016.4,10931.3,4897.0
+Other,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,21019.6,4430.3,11268.3,5321.0
+Other,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,21019.6,4430.3,11268.3,5321.0
+Other,2010,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,21019.6,4430.3,11268.3,5321.0
+AllSites,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,127758.4,41204.7,48073.5,38480.2
+AllSites,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,125033.9,38926.8,47986.1,38121.0
+AllSites,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,128953.1,41204.7,48788.0,38960.3
+AllSites,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,126201.7,38926.8,48684.3,38590.6
+AllSites,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,127631.8,39705.4,48684.3,39242.1
+AllSites,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,129776.9,40873.2,48684.3,40219.4
+Bladder,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4049.4,996.9,1928.2,1124.3
+Bladder,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3931.3,931.5,1896.9,1102.9
+Bladder,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4059.7,996.9,1934.7,1128.1
+Bladder,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3941.2,931.5,1903.2,1106.5
+Bladder,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3976.4,950.2,1903.2,1123.1
+Bladder,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4029.2,978.1,1903.2,1147.9
+Brain,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4576.8,1280.8,1092.7,2203.3
+Brain,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4535.1,1251.8,1090.6,2192.7
+Brain,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4621.9,1280.8,1103.6,2237.6
+Brain,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4579.6,1251.8,1101.3,2226.5
+Brain,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4647.3,1276.8,1101.3,2269.1
+Brain,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4748.8,1314.4,1101.3,2333.1
+Breast,2011,Females,All ages,"Incidence, Survival at constant rate",0%,16909.4,6127.0,6959.1,3823.3
+Breast,2011,Females,All ages,"Incidence follows recent trend, Survival constant",0%,16247.3,5684.6,6828.5,3734.2
+Breast,2011,Females,All ages,"Survival follows recent trend, Incidence constant",0%,16929.1,6127.0,6971.5,3830.6
+Breast,2011,Females,All ages,"Incidence, Survival follow recent trends",0%,16266.0,5684.6,6840.3,3741.1
+Breast,2011,Females,All ages,"Incidence, Survival follow recent trends",2%,16452.6,5798.3,6840.3,3814.0
+Breast,2011,Females,All ages,"Incidence, Survival follow recent trends",5%,16732.5,5968.9,6840.3,3923.4
+Cervix,2011,Females,All ages,"Incidence, Survival at constant rate",0%,1546.2,493.4,367.1,685.7
+Cervix,2011,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1377.3,375.7,352.9,648.7
+Cervix,2011,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.8,493.4,367.2,686.1
+Cervix,2011,Females,All ages,"Incidence, Survival follow recent trends",0%,1377.7,375.7,353.0,649.0
+Cervix,2011,Females,All ages,"Incidence, Survival follow recent trends",2%,1397.1,383.2,353.0,660.9
+Cervix,2011,Females,All ages,"Incidence, Survival follow recent trends",5%,1426.2,394.5,353.0,678.7
+Colorectal,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14414.5,6038.9,3984.4,4391.2
+Colorectal,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13401.6,5295.0,3892.2,4214.4
+Colorectal,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14480.8,6038.9,4014.0,4427.9
+Colorectal,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13462.2,5295.0,3919.2,4247.9
+Colorectal,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13633.0,5400.9,3919.2,4312.9
+Colorectal,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,13889.4,5559.7,3919.2,4410.4
+Esophagus,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1377.3,591.0,153.8,632.5
+Esophagus,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1359.5,579.5,152.8,627.1
+Esophagus,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1429.1,591.0,164.5,673.6
+Esophagus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1410.8,579.5,163.5,667.8
+Esophagus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1434.4,591.1,163.5,679.8
+Esophagus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1469.9,608.5,163.5,697.9
+Head_Neck,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3700.4,1101.0,1024.8,1574.6
+Head_Neck,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3548.9,999.9,1010.7,1538.3
+Head_Neck,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3707.7,1101.0,1027.5,1579.1
+Head_Neck,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3555.8,999.9,1013.4,1542.5
+Head_Neck,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3604.4,1019.9,1013.4,1571.2
+Head_Neck,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3677.3,1049.9,1013.4,1614.1
+Kidney,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3923.9,1152.3,1646.5,1125.1
+Kidney,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4153.2,1311.1,1680.1,1161.9
+Kidney,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3949.9,1152.3,1661.8,1135.8
+Kidney,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4181.6,1311.1,1696.8,1173.6
+Kidney,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4225.5,1337.4,1696.8,1191.3
+Kidney,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4291.4,1376.7,1696.8,1217.8
+Leukemia,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5581.7,809.8,2160.8,2611.1
+Leukemia,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5439.7,771.8,2118.9,2549.1
+Leukemia,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5627.8,809.8,2180.6,2637.4
+Leukemia,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5483.8,771.8,2137.8,2574.3
+Leukemia,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5545.7,787.2,2137.8,2620.7
+Leukemia,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5638.5,810.3,2137.8,2690.4
+Lung,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12375.1,5355.9,1885.9,5133.3
+Lung,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11446.9,4773.0,1837.3,4836.6
+Lung,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12477.9,5355.9,1914.7,5207.3
+Lung,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11539.6,4773.0,1863.3,4903.3
+Lung,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,11726.5,4868.5,1863.3,4994.7
+Lung,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,12006.7,5011.7,1863.3,5131.8
+Lymphoma,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12451.3,3215.0,5023.0,4213.3
+Lymphoma,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12379.4,3164.8,5013.6,4200.9
+Lymphoma,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12515.3,3215.0,5056.4,4243.8
+Lymphoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12442.8,3164.8,5046.8,4231.1
+Lymphoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12580.5,3228.1,5046.8,4305.5
+Lymphoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,12787.0,3323.1,5046.8,4417.0
+Melanoma,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2446.0,498.9,1607.3,339.8
+Melanoma,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2575.5,585.1,1634.5,355.9
+Melanoma,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2448.5,498.9,1609.3,340.4
+Melanoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2578.3,585.1,1636.7,356.6
+Melanoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2596.7,596.8,1636.7,363.3
+Melanoma,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2624.4,614.4,1636.7,373.4
+Ovary,2011,Females,All ages,"Incidence, Survival at constant rate",0%,5216.4,1409.0,1687.4,2119.9
+Ovary,2011,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4704.2,1045.9,1644.0,2014.3
+Ovary,2011,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5252.4,1409.0,1701.1,2142.3
+Ovary,2011,Females,All ages,"Incidence, Survival follow recent trends",0%,4734.1,1045.9,1655.3,2032.8
+Ovary,2011,Females,All ages,"Incidence, Survival follow recent trends",2%,4794.0,1066.8,1655.3,2071.8
+Ovary,2011,Females,All ages,"Incidence, Survival follow recent trends",5%,4883.9,1098.2,1655.3,2130.4
+Pancreas,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2324.0,1466.3,105.1,752.6
+Pancreas,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2307.8,1454.8,104.8,748.2
+Pancreas,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2393.9,1466.3,119.8,807.8
+Pancreas,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2377.2,1454.8,119.4,803.0
+Pancreas,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2421.6,1483.9,119.4,818.3
+Pancreas,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2488.2,1527.6,119.4,841.2
+Prostate,2011,Males,All ages,"Incidence, Survival at constant rate",0%,12219.1,4670.2,6404.7,1144.2
+Prostate,2011,Males,All ages,"Incidence follows recent trend, Survival constant",0%,11983.9,4482.7,6363.4,1137.8
+Prostate,2011,Males,All ages,"Survival follows recent trend, Incidence constant",0%,12228.7,4670.2,6413.0,1145.4
+Prostate,2011,Males,All ages,"Incidence, Survival follow recent trends",0%,11993.3,4482.7,6371.5,1139.1
+Prostate,2011,Males,All ages,"Incidence, Survival follow recent trends",2%,12088.1,4572.4,6371.5,1144.2
+Prostate,2011,Males,All ages,"Incidence, Survival follow recent trends",5%,12230.2,4706.9,6371.5,1151.8
+Stomach,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1858.4,849.1,235.1,774.3
+Stomach,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1708.0,747.2,229.2,731.7
+Stomach,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1885.4,849.1,240.8,795.5
+Stomach,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1732.7,747.2,234.4,751.1
+Stomach,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1760.9,762.1,234.4,764.4
+Stomach,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1803.2,784.6,234.4,784.3
+Uterus,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2654.3,1082.3,797.9,774.1
+Uterus,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2565.6,1016.6,787.5,761.5
+Uterus,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2653.8,1082.3,797.4,774.1
+Uterus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2565.1,1016.6,787.0,761.5
+Uterus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2598.4,1036.9,787.0,774.4
+Uterus,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2648.3,1067.4,787.0,793.9
+Other,2011,Both sexes,All ages,"Incidence, Survival at constant rate",0%,20134.3,4066.9,11009.7,5057.7
+Other,2011,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,21368.7,4455.6,11348.2,5564.9
+Other,2011,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,20744.2,4066.9,11510.0,5167.3
+Other,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,21979.9,4455.6,11841.4,5682.9
+Other,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,22148.7,4544.7,11841.4,5762.6
+Other,2011,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,22401.9,4678.4,11841.4,5882.1
+AllSites,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,130982.2,41955.3,49513.1,39513.8
+AllSites,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,127613.2,39300.3,49282.9,39030.0
+AllSites,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,132581.6,41955.3,50490.4,40135.9
+AllSites,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,129196.4,39300.3,50236.6,39659.4
+AllSites,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,132134.5,40888.1,50236.6,41009.8
+AllSites,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,136650.9,43328.6,50236.6,43085.6
+Bladder,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4122.2,1016.5,1961.8,1143.9
+Bladder,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3978.6,940.0,1921.7,1116.9
+Bladder,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4136.6,1016.5,1970.9,1149.2
+Bladder,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3992.3,940.0,1930.3,1121.9
+Bladder,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4064.2,978.0,1930.3,1155.9
+Bladder,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4174.8,1036.4,1930.3,1208.1
+Brain,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4683.1,1299.6,1122.3,2261.2
+Brain,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4630.8,1264.7,1119.1,2246.9
+Brain,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4742.9,1299.6,1137.3,2306.0
+Brain,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4689.6,1264.7,1133.9,2291.0
+Brain,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4829.2,1315.8,1133.9,2379.5
+Brain,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5043.8,1394.3,1133.9,2515.6
+Breast,2012,Females,All ages,"Incidence, Survival at constant rate",0%,17316.1,6213.9,7176.2,3926.0
+Breast,2012,Females,All ages,"Incidence follows recent trend, Survival constant",0%,16566.9,5731.4,7015.5,3820.0
+Breast,2012,Females,All ages,"Survival follows recent trend, Incidence constant",0%,17345.3,6213.9,7194.7,3936.7
+Breast,2012,Females,All ages,"Incidence, Survival follow recent trends",0%,16594.5,5731.4,7033.0,3830.1
+Breast,2012,Females,All ages,"Incidence, Survival follow recent trends",2%,16976.8,5963.0,7033.0,3980.9
+Breast,2012,Females,All ages,"Incidence, Survival follow recent trends",5%,17564.5,6318.9,7033.0,4212.6
+Cervix,2012,Females,All ages,"Incidence, Survival at constant rate",0%,1546.0,494.3,366.0,685.8
+Cervix,2012,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1359.4,365.6,350.0,643.8
+Cervix,2012,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.8,494.3,366.2,686.3
+Cervix,2012,Females,All ages,"Incidence, Survival follow recent trends",0%,1360.0,365.6,350.1,644.3
+Cervix,2012,Females,All ages,"Incidence, Survival follow recent trends",2%,1398.6,380.4,350.1,668.1
+Cervix,2012,Females,All ages,"Incidence, Survival follow recent trends",5%,1457.9,403.1,350.1,704.7
+Colorectal,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14695.2,6153.5,4068.4,4473.3
+Colorectal,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13496.0,5308.0,3938.9,4249.1
+Colorectal,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14785.9,6153.5,4109.6,4522.8
+Colorectal,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13577.9,5308.0,3976.1,4293.8
+Colorectal,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13925.0,5522.4,3976.1,4426.5
+Colorectal,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,14458.7,5852.1,3976.1,4630.5
+Esophagus,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1420.4,604.2,161.0,655.2
+Esophagus,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1398.9,590.9,159.7,648.2
+Esophagus,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1488.6,604.2,175.5,708.9
+Esophagus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1466.3,590.9,174.1,701.2
+Esophagus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1515.7,614.8,174.1,726.8
+Esophagus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1591.6,651.5,174.1,766.0
+Head_Neck,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3765.5,1121.3,1042.7,1601.5
+Head_Neck,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3578.3,1002.6,1022.4,1553.3
+Head_Neck,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3775.7,1121.3,1046.6,1607.8
+Head_Neck,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3587.9,1002.6,1026.1,1559.1
+Head_Neck,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3686.8,1043.1,1026.1,1617.5
+Head_Neck,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3838.8,1105.4,1026.1,1707.3
+Kidney,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4050.5,1178.5,1707.1,1165.0
+Kidney,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4336.5,1363.7,1757.9,1215.0
+Kidney,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4086.3,1178.5,1728.2,1179.6
+Kidney,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4376.0,1363.7,1781.2,1231.2
+Kidney,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4468.6,1418.8,1781.2,1268.6
+Kidney,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4610.8,1503.4,1781.2,1326.2
+Leukemia,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5727.2,821.7,2224.1,2681.4
+Leukemia,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5571.5,781.3,2177.1,2613.2
+Leukemia,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5790.0,821.7,2251.4,2717.0
+Leukemia,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5631.6,781.3,2203.2,2647.1
+Leukemia,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5759.6,812.8,2203.2,2743.5
+Leukemia,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5956.3,861.4,2203.2,2891.7
+Lung,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12627.8,5470.9,1922.5,5234.5
+Lung,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11536.5,4805.4,1856.4,4874.7
+Lung,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12761.5,5470.9,1960.4,5330.2
+Lung,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11655.4,4805.4,1890.3,4959.7
+Lung,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12036.3,4999.5,1890.3,5146.4
+Lung,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,12621.7,5298.0,1890.3,5433.4
+Lymphoma,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12759.5,3267.6,5155.5,4336.4
+Lymphoma,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12670.7,3210.3,5141.4,4319.0
+Lymphoma,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,12848.2,3267.6,5201.6,4379.0
+Lymphoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12758.6,3210.3,5187.2,4361.2
+Lymphoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13043.0,3340.0,5187.2,4515.8
+Lymphoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,13480.1,3539.3,5187.2,4753.6
+Melanoma,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2527.6,507.5,1671.9,348.2
+Melanoma,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2693.1,607.8,1716.0,369.3
+Melanoma,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2531.2,507.5,1674.7,349.0
+Melanoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2697.2,607.8,1719.2,370.2
+Melanoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2735.8,632.4,1719.2,384.2
+Melanoma,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2795.2,670.2,1719.2,405.9
+Ovary,2012,Females,All ages,"Incidence, Survival at constant rate",0%,5314.0,1426.2,1719.6,2168.2
+Ovary,2012,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4699.3,1014.6,1654.8,2029.9
+Ovary,2012,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5363.7,1426.2,1738.9,2198.6
+Ovary,2012,Females,All ages,"Incidence, Survival follow recent trends",0%,4739.3,1014.6,1670.4,2054.4
+Ovary,2012,Females,All ages,"Incidence, Survival follow recent trends",2%,4859.9,1055.6,1670.4,2134.0
+Ovary,2012,Females,All ages,"Incidence, Survival follow recent trends",5%,5045.3,1118.6,1670.4,2256.4
+Pancreas,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2381.2,1494.2,110.8,776.2
+Pancreas,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2363.8,1482.0,110.5,771.3
+Pancreas,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2471.5,1494.2,130.1,847.2
+Pancreas,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2453.5,1482.0,129.6,841.9
+Pancreas,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2545.7,1541.9,129.6,874.2
+Pancreas,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2687.5,1633.9,129.6,923.9
+Prostate,2012,Males,All ages,"Incidence, Survival at constant rate",0%,12605.1,4799.9,6629.2,1176.0
+Prostate,2012,Males,All ages,"Incidence follows recent trend, Survival constant",0%,12309.8,4577.2,6566.0,1166.6
+Prostate,2012,Males,All ages,"Survival follows recent trend, Incidence constant",0%,12619.3,4799.9,6641.5,1178.0
+Prostate,2012,Males,All ages,"Incidence, Survival follow recent trends",0%,12323.7,4577.2,6578.0,1168.5
+Prostate,2012,Males,All ages,"Incidence, Survival follow recent trends",2%,12519.1,4762.1,6578.0,1179.0
+Prostate,2012,Males,All ages,"Incidence, Survival follow recent trends",5%,12819.5,5046.4,6578.0,1195.1
+Stomach,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1897.5,866.0,240.3,791.1
+Stomach,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1718.4,748.2,232.1,738.2
+Stomach,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1932.6,866.0,247.9,818.6
+Stomach,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1750.1,748.2,239.0,762.9
+Stomach,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1807.6,778.4,239.0,790.2
+Stomach,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1895.9,824.8,239.0,832.1
+Uterus,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2688.8,1104.1,805.6,779.1
+Uterus,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2588.8,1032.0,792.6,764.2
+Uterus,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2687.9,1104.1,804.8,779.0
+Uterus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2587.9,1032.0,791.8,764.1
+Uterus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2655.9,1073.7,791.8,790.4
+Uterus,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2760.4,1137.8,791.8,830.8
+Other,2012,Both sexes,All ages,"Incidence, Survival at constant rate",0%,20854.6,4115.5,11428.3,5310.8
+Other,2012,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,22115.8,4474.6,11750.9,5890.4
+Other,2012,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,21667.5,4115.5,12110.1,5441.9
+Other,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,22954.6,4474.6,12423.1,6056.9
+Other,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,23306.8,4655.3,12423.1,6228.3
+Other,2012,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,23848.2,4933.2,12423.1,6491.9
+AllSites,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,134173.6,42703.9,50949.8,40519.8
+AllSites,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,130123.0,39662.8,50552.4,39907.9
+AllSites,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,136297.1,42703.9,52238.5,41354.6
+AllSites,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,132158.3,39662.8,51801.0,40694.4
+AllSites,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,136679.1,42090.5,51801.0,42787.6
+AllSites,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,143800.5,45914.7,51801.0,46084.8
+Bladder,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4198.5,1037.2,1996.4,1164.9
+Bladder,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4026.0,948.4,1946.1,1131.6
+Bladder,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4217.8,1037.2,2008.5,1172.0
+Bladder,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4044.2,948.4,1957.6,1138.3
+Bladder,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4154.4,1006.4,1957.6,1190.5
+Bladder,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4328.1,1097.9,1957.6,1272.7
+Brain,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4788.6,1318.5,1151.8,2318.3
+Brain,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4725.2,1277.8,1147.4,2300.0
+Brain,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4865.0,1318.5,1171.6,2374.9
+Brain,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4800.1,1277.8,1166.8,2355.5
+Brain,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5016.0,1356.0,1166.8,2493.3
+Brain,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5356.2,1479.2,1166.8,2710.3
+Breast,2013,Females,All ages,"Incidence, Survival at constant rate",0%,17715.9,6297.3,7391.7,4026.9
+Breast,2013,Females,All ages,"Incidence follows recent trend, Survival constant",0%,16875.9,5774.2,7198.6,3903.1
+Breast,2013,Females,All ages,"Survival follows recent trend, Incidence constant",0%,17756.8,6297.3,7417.9,4041.7
+Breast,2013,Females,All ages,"Incidence, Survival follow recent trends",0%,16914.4,5774.2,7223.2,3917.0
+Breast,2013,Females,All ages,"Incidence, Survival follow recent trends",2%,17501.3,6127.7,7223.2,4150.5
+Breast,2013,Females,All ages,"Incidence, Survival follow recent trends",5%,18426.0,6684.4,7223.2,4518.4
+Cervix,2013,Females,All ages,"Incidence, Survival at constant rate",0%,1545.2,495.0,365.0,685.2
+Cervix,2013,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1340.6,355.7,346.9,638.1
+Cervix,2013,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.1,495.0,365.2,686.0
+Cervix,2013,Females,All ages,"Incidence, Survival follow recent trends",0%,1341.4,355.7,347.0,638.7
+Cervix,2013,Females,All ages,"Incidence, Survival follow recent trends",2%,1398.9,377.5,347.0,674.4
+Cervix,2013,Females,All ages,"Incidence, Survival follow recent trends",5%,1489.5,411.7,347.0,730.7
+Colorectal,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14979.2,6270.3,4155.4,4553.5
+Colorectal,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13584.3,5321.0,3984.7,4278.7
+Colorectal,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15098.1,6270.3,4210.4,4617.3
+Colorectal,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13690.4,5321.0,4033.8,4335.6
+Colorectal,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14219.0,5646.7,4033.8,4538.5
+Colorectal,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,15051.8,6159.7,4033.8,4858.2
+Esophagus,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1462.6,617.2,168.2,677.2
+Esophagus,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1437.2,602.1,166.6,668.5
+Esophagus,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1549.2,617.2,187.1,744.9
+Esophagus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1522.5,602.1,185.2,735.2
+Esophagus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1599.8,639.0,185.2,775.7
+Esophagus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1721.6,697.1,185.2,839.4
+Head_Neck,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3830.8,1141.1,1061.2,1628.4
+Head_Neck,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3605.4,1004.6,1033.8,1567.0
+Head_Neck,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3844.5,1141.1,1066.6,1636.7
+Head_Neck,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3618.2,1004.6,1038.8,1574.7
+Head_Neck,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3769.0,1066.1,1038.8,1664.1
+Head_Neck,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4006.6,1163.0,1038.8,1804.8
+Kidney,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4177.6,1204.5,1767.9,1205.2
+Kidney,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4525.8,1417.4,1838.4,1270.0
+Kidney,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4224.8,1204.5,1795.9,1224.4
+Kidney,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4578.6,1417.4,1869.7,1291.5
+Kidney,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4724.8,1504.2,1869.7,1351.0
+Kidney,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4955.2,1640.9,1869.7,1444.7
+Leukemia,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5873.8,833.6,2287.1,2753.1
+Leukemia,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5704.0,790.8,2234.9,2678.3
+Leukemia,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5956.1,833.6,2323.3,2799.2
+Leukemia,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5782.5,790.8,2269.5,2722.3
+Leukemia,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5981.0,839.2,2269.5,2872.4
+Leukemia,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6293.7,915.4,2269.5,3108.8
+Lung,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,12876.5,5583.8,1959.3,5333.3
+Lung,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11616.5,4834.3,1874.4,4907.8
+Lung,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13044.3,5583.8,2007.6,5452.9
+Lung,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11763.8,4834.3,1917.0,5012.5
+Lung,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12345.5,5130.2,1917.0,5298.3
+Lung,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,13261.8,5596.3,1917.0,5748.5
+Lymphoma,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13066.0,3319.7,5286.8,4459.5
+Lymphoma,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12959.4,3255.2,5267.6,4436.7
+Lymphoma,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13183.8,3319.7,5347.9,4516.2
+Lymphoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13075.9,3255.2,5328.0,4492.7
+Lymphoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13516.2,3454.4,5328.0,4733.8
+Lymphoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,14209.9,3768.2,5328.0,5113.6
+Melanoma,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2607.7,515.8,1736.0,356.0
+Melanoma,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2813.1,631.0,1799.7,382.4
+Melanoma,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2612.6,515.8,1739.8,357.0
+Melanoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2818.6,631.0,1804.0,383.5
+Melanoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2879.3,669.6,1804.0,405.6
+Melanoma,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2974.9,730.5,1804.0,440.4
+Ovary,2013,Females,All ages,"Incidence, Survival at constant rate",0%,5408.5,1442.6,1751.0,2214.9
+Ovary,2013,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4687.7,983.4,1662.6,2041.7
+Ovary,2013,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5474.0,1442.6,1776.8,2254.7
+Ovary,2013,Females,All ages,"Incidence, Survival follow recent trends",0%,4739.0,983.4,1682.9,2072.7
+Ovary,2013,Females,All ages,"Incidence, Survival follow recent trends",2%,4920.9,1043.6,1682.9,2194.3
+Ovary,2013,Females,All ages,"Incidence, Survival follow recent trends",5%,5207.3,1138.5,1682.9,2385.9
+Pancreas,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2436.9,1522.2,116.4,798.3
+Pancreas,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2418.3,1509.2,116.0,793.1
+Pancreas,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2549.6,1522.2,140.8,886.6
+Pancreas,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2530.2,1509.2,140.3,880.7
+Pancreas,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2673.8,1601.6,140.3,931.9
+Pancreas,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2900.0,1747.1,140.3,1012.7
+Prostate,2013,Males,All ages,"Incidence, Survival at constant rate",0%,13005.2,4935.0,6860.8,1209.3
+Prostate,2013,Males,All ages,"Incidence follows recent trend, Survival constant",0%,12643.6,4675.5,6771.9,1196.2
+Prostate,2013,Males,All ages,"Survival follows recent trend, Incidence constant",0%,13025.2,4935.0,6878.1,1212.1
+Prostate,2013,Males,All ages,"Incidence, Survival follow recent trends",0%,12663.1,4675.5,6788.7,1198.9
+Prostate,2013,Males,All ages,"Incidence, Survival follow recent trends",2%,12965.4,4961.6,6788.7,1215.1
+Prostate,2013,Males,All ages,"Incidence, Survival follow recent trends",5%,13441.6,5412.4,6788.7,1240.5
+Stomach,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1936.7,883.3,245.7,807.7
+Stomach,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1727.9,749.1,235.0,743.8
+Stomach,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1980.9,883.3,255.6,842.1
+Stomach,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1767.1,749.1,243.8,774.3
+Stomach,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1854.9,794.9,243.8,816.2
+Stomach,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1993.1,867.1,243.8,882.2
+Uterus,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2725.3,1125.6,814.1,785.5
+Uterus,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2613.3,1047.0,798.3,768.0
+Uterus,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2724.0,1125.6,813.0,785.4
+Uterus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2612.0,1047.0,797.2,767.9
+Uterus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2716.2,1111.1,797.2,807.9
+Uterus,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2880.2,1212.0,797.2,871.0
+Other,2013,Both sexes,All ages,"Incidence, Survival at constant rate",0%,21538.7,4161.3,11834.9,5542.5
+Other,2013,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,22818.8,4486.2,12129.7,6203.0
+Other,2013,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,22644.3,4161.3,12732.6,5750.5
+Other,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,23896.4,4486.2,13007.7,6402.5
+Other,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,24442.6,4760.8,13007.7,6674.1
+Other,2013,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,25302.9,5193.3,13007.7,7101.9
+AllSites,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,137401.1,43466.6,52408.1,41526.4
+AllSites,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,132634.1,40028.8,51815.4,40789.9
+AllSites,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,140027.6,43466.6,54050.2,42510.8
+AllSites,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,135235.9,40028.8,53404.4,41802.7
+AllSites,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,141425.8,43328.4,53404.4,44693.0
+AllSites,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,151418.4,48655.2,53404.4,49358.8
+Bladder,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4280.3,1059.5,2033.4,1187.4
+Bladder,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4075.2,957.0,1971.4,1146.8
+Bladder,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4305.0,1059.5,2049.0,1196.6
+Bladder,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4098.5,957.0,1986.1,1155.4
+Bladder,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4248.7,1035.9,1986.1,1226.7
+Bladder,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4491.3,1163.2,1986.1,1341.9
+Brain,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4895.0,1337.8,1181.3,2375.9
+Brain,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4820.0,1291.2,1175.4,2353.3
+Brain,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4990.2,1337.8,1206.6,2445.7
+Brain,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4912.9,1291.2,1200.2,2421.6
+Brain,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5209.9,1397.7,1200.2,2612.1
+Brain,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5689.3,1569.5,1200.2,2919.7
+Breast,2014,Females,All ages,"Incidence, Survival at constant rate",0%,18116.6,6379.7,7608.6,4128.3
+Breast,2014,Females,All ages,"Incidence follows recent trend, Survival constant",0%,17181.8,5815.5,7380.8,3985.5
+Breast,2014,Females,All ages,"Survival follows recent trend, Incidence constant",0%,18171.6,6379.7,7644.0,4147.9
+Breast,2014,Females,All ages,"Incidence, Survival follow recent trends",0%,17233.2,5815.5,7413.9,4003.9
+Breast,2014,Females,All ages,"Incidence, Survival follow recent trends",2%,18034.0,6294.8,7413.9,4325.3
+Breast,2014,Females,All ages,"Incidence, Survival follow recent trends",5%,19326.9,7068.7,7413.9,4844.3
+Cervix,2014,Females,All ages,"Incidence, Survival at constant rate",0%,1544.8,495.7,364.1,685.0
+Cervix,2014,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1322.0,346.0,343.7,632.2
+Cervix,2014,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.0,495.7,364.4,685.9
+Cervix,2014,Females,All ages,"Incidence, Survival follow recent trends",0%,1322.9,346.0,343.9,632.9
+Cervix,2014,Females,All ages,"Incidence, Survival follow recent trends",2%,1399.1,374.5,343.9,680.6
+Cervix,2014,Females,All ages,"Incidence, Survival follow recent trends",5%,1522.1,420.6,343.9,757.6
+Colorectal,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,15280.2,6391.9,4248.1,4640.2
+Colorectal,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13679.4,5336.2,4032.1,4311.2
+Colorectal,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15431.1,6391.9,4318.9,4720.3
+Colorectal,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13812.6,5336.2,4094.7,4381.7
+Colorectal,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14528.6,5776.0,4094.7,4657.8
+Colorectal,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,15684.4,6486.1,4094.7,5103.6
+Esophagus,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1505.3,630.4,175.4,699.5
+Esophagus,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1475.7,613.4,173.3,688.9
+Esophagus,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1612.4,630.4,199.3,782.7
+Esophagus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1581.1,613.4,196.8,770.8
+Esophagus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1688.7,664.0,196.8,827.9
+Esophagus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,1862.3,745.6,196.8,919.9
+Head_Neck,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3898.7,1161.1,1080.7,1656.8
+Head_Neck,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3632.9,1006.5,1045.3,1581.1
+Head_Neck,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3916.6,1161.1,1087.8,1667.6
+Head_Neck,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3649.3,1006.5,1051.8,1591.0
+Head_Neck,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3853.8,1089.5,1051.8,1712.6
+Head_Neck,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4184.0,1223.4,1051.8,1908.8
+Kidney,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4306.9,1230.8,1829.7,1246.4
+Kidney,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4723.1,1473.1,1922.3,1327.7
+Kidney,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4367.3,1230.8,1865.6,1270.9
+Kidney,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4791.5,1473.1,1963.0,1355.4
+Kidney,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4996.9,1594.5,1963.0,1439.4
+Kidney,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5328.5,1790.5,1963.0,1575.0
+Leukemia,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6022.3,845.7,2350.7,2826.0
+Leukemia,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5837.8,800.5,2293.0,2744.4
+Leukemia,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,6126.7,845.7,2397.1,2884.0
+Leukemia,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5937.3,800.5,2337.2,2799.6
+Leukemia,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6211.0,866.4,2337.2,3007.4
+Leukemia,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6652.9,973.0,2337.2,3342.7
+Lung,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13131.1,5697.4,1997.8,5435.9
+Lung,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11696.3,4861.9,1892.6,4941.7
+Lung,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13336.4,5697.4,2057.6,5581.4
+Lung,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11873.9,4861.9,1944.8,5067.3
+Lung,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12663.8,5262.7,1944.8,5456.4
+Lung,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,13938.9,5909.6,1944.8,6084.5
+Lymphoma,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13375.1,3372.5,5418.7,4583.9
+Lymphoma,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13249.6,3300.6,5393.9,4555.1
+Lymphoma,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13526.3,3372.5,5496.9,4656.9
+Lymphoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13398.8,3300.6,5471.1,4627.1
+Lymphoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14004.9,3572.6,5471.1,4961.2
+Lymphoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,14983.4,4011.9,5471.1,5500.4
+Melanoma,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2687.7,524.0,1799.9,363.7
+Melanoma,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2936.7,654.8,1885.9,396.0
+Melanoma,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2694.0,524.0,1805.0,364.9
+Melanoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2943.9,654.8,1891.7,397.4
+Melanoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3028.6,708.8,1891.7,428.1
+Melanoma,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3165.4,796.0,1891.7,477.8
+Ovary,2014,Females,All ages,"Incidence, Survival at constant rate",0%,5502.4,1458.6,1782.2,2261.7
+Ovary,2014,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4672.2,952.9,1668.1,2051.2
+Ovary,2014,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5586.2,1458.6,1815.5,2312.1
+Ovary,2014,Females,All ages,"Incidence, Survival follow recent trends",0%,4735.9,952.9,1693.6,2089.4
+Ovary,2014,Females,All ages,"Incidence, Survival follow recent trends",2%,4979.5,1031.5,1693.6,2254.4
+Ovary,2014,Females,All ages,"Incidence, Survival follow recent trends",5%,5372.8,1158.3,1693.6,2520.9
+Pancreas,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2493.4,1550.8,121.9,820.6
+Pancreas,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2473.5,1537.1,121.4,815.0
+Pancreas,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2630.6,1550.8,152.1,927.7
+Pancreas,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2609.7,1537.1,151.4,921.2
+Pancreas,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2808.5,1663.8,151.4,993.4
+Pancreas,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3129.5,1868.3,151.4,1109.8
+Prostate,2014,Males,All ages,"Incidence, Survival at constant rate",0%,13426.1,5077.9,7103.8,1244.4
+Prostate,2014,Males,All ages,"Incidence follows recent trend, Survival constant",0%,12991.5,4779.5,6985.1,1227.0
+Prostate,2014,Males,All ages,"Survival follows recent trend, Incidence constant",0%,13453.0,5077.9,7126.9,1248.2
+Prostate,2014,Males,All ages,"Incidence, Survival follow recent trends",0%,13017.6,4779.5,7007.5,1230.7
+Prostate,2014,Males,All ages,"Incidence, Survival follow recent trends",2%,13433.7,5173.5,7007.5,1252.8
+Prostate,2014,Males,All ages,"Incidence, Survival follow recent trends",5%,14105.4,5809.5,7007.5,1288.4
+Stomach,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1977.9,901.1,251.4,825.3
+Stomach,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1737.9,750.2,237.9,749.9
+Stomach,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2032.1,901.1,263.8,867.2
+Stomach,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1785.4,750.2,248.8,786.4
+Stomach,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1904.6,812.0,248.8,843.8
+Stomach,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2096.9,911.9,248.8,936.3
+Uterus,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2764.7,1147.3,824.1,793.3
+Uterus,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2640.0,1061.9,805.2,772.9
+Uterus,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2762.8,1147.3,822.4,793.0
+Uterus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2638.3,1061.9,803.7,772.7
+Uterus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2780.1,1149.4,803.7,827.0
+Uterus,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3009.2,1290.7,803.7,914.7
+Other,2014,Both sexes,All ages,"Incidence, Survival at constant rate",0%,22192.6,4204.3,12236.2,5752.1
+Other,2014,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,23488.6,4490.7,12487.9,6510.0
+Other,2014,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,23539.4,4204.3,13377.3,5957.7
+Other,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,24893.0,4490.7,13604.2,6798.2
+Other,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,25651.2,4860.8,13604.2,7186.2
+Other,2014,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,26875.1,5458.4,13604.2,7812.5
+AllSites,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,140578.3,44239.9,53838.4,42500.1
+AllSites,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,135076.8,40395.0,53028.3,41653.6
+AllSites,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,143883.6,44239.9,55879.3,43764.4
+AllSites,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,138257.5,40395.0,54994.3,42868.2
+AllSites,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,146194.0,44599.3,54994.3,46600.4
+AllSites,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,159324.8,51555.4,54994.3,52775.2
+Bladder,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4363.2,1083.4,2070.1,1209.7
+Bladder,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4121.6,965.8,1995.0,1160.9
+Bladder,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4394.2,1083.4,2089.7,1221.2
+Bladder,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4150.5,965.8,2013.2,1171.6
+Bladder,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4342.4,1066.3,2013.2,1262.9
+Bladder,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4659.9,1232.6,2013.2,1414.1
+Brain,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5002.0,1357.5,1210.6,2433.9
+Brain,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4914.8,1304.9,1203.1,2406.8
+Brain,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5117.9,1357.5,1242.1,2518.3
+Brain,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5027.8,1304.9,1233.8,2489.0
+Brain,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5410.6,1440.7,1233.8,2736.0
+Brain,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6044.1,1665.5,1233.8,3144.8
+Breast,2015,Females,All ages,"Incidence, Survival at constant rate",0%,18505.1,6460.6,7819.5,4225.0
+Breast,2015,Females,All ages,"Incidence follows recent trend, Survival constant",0%,17471.7,5854.7,7554.7,4062.4
+Breast,2015,Females,All ages,"Survival follows recent trend, Incidence constant",0%,18576.5,6460.6,7865.7,4250.2
+Breast,2015,Females,All ages,"Incidence, Survival follow recent trends",0%,17538.3,5854.7,7597.7,4085.9
+Breast,2015,Females,All ages,"Incidence, Survival follow recent trends",2%,18561.8,6464.1,7597.7,4500.0
+Breast,2015,Females,All ages,"Incidence, Survival follow recent trends",5%,20255.1,7472.2,7597.7,5185.1
+Cervix,2015,Females,All ages,"Incidence, Survival at constant rate",0%,1544.3,496.4,363.1,684.8
+Cervix,2015,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1302.9,336.6,340.3,626.1
+Cervix,2015,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1545.8,496.4,363.4,685.9
+Cervix,2015,Females,All ages,"Incidence, Survival follow recent trends",0%,1304.1,336.6,340.5,626.9
+Cervix,2015,Females,All ages,"Incidence, Survival follow recent trends",2%,1398.7,371.6,340.5,686.5
+Cervix,2015,Females,All ages,"Incidence, Survival follow recent trends",5%,1555.3,429.6,340.5,785.1
+Colorectal,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,15584.2,6517.5,4340.5,4726.2
+Colorectal,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13767.8,5352.7,4075.4,4339.7
+Colorectal,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15770.9,6517.5,4429.2,4824.2
+Colorectal,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13930.6,5352.7,4153.0,4425.0
+Colorectal,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14839.7,5909.8,4153.0,4777.0
+Colorectal,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,16343.9,6831.5,4153.0,5359.4
+Esophagus,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1547.5,643.5,182.5,721.6
+Esophagus,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1513.6,624.6,180.0,708.9
+Esophagus,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1677.3,643.5,211.9,821.9
+Esophagus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1641.0,624.6,208.9,807.5
+Esophagus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1781.3,689.6,208.9,882.8
+Esophagus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2013.4,797.2,208.9,1007.3
+Head_Neck,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3966.9,1181.1,1100.3,1685.5
+Head_Neck,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3658.3,1008.0,1056.0,1594.3
+Head_Neck,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3989.6,1181.1,1109.4,1699.1
+Head_Neck,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3679.0,1008.0,1064.3,1606.7
+Head_Neck,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3938.9,1112.9,1064.3,1761.6
+Head_Neck,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4368.9,1286.5,1064.3,2018.0
+Kidney,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4435.6,1257.3,1891.0,1287.3
+Kidney,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4925.7,1530.4,2008.4,1387.0
+Kidney,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4511.1,1257.3,1935.9,1317.8
+Kidney,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5012.1,1530.4,2059.8,1421.9
+Kidney,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5282.6,1689.7,2059.8,1533.0
+Kidney,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5730.0,1953.2,2059.8,1716.9
+Leukemia,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6169.7,858.0,2413.4,2898.3
+Leukemia,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5970.0,810.3,2350.0,2809.7
+Leukemia,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,6298.8,858.0,2471.3,2969.5
+Leukemia,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6092.9,810.3,2405.2,2877.4
+Leukemia,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6446.6,894.6,2405.2,3146.8
+Leukemia,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7031.9,1034.1,2405.2,3592.6
+Lung,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13382.3,5811.0,2035.0,5536.2
+Lung,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11767.1,4887.9,1908.4,4970.8
+Lung,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13628.2,5811.0,2107.4,5709.8
+Lung,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,11977.0,4887.9,1970.7,5118.4
+Lung,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,12981.9,5396.7,1970.7,5614.6
+Lung,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,14644.6,6238.4,1970.7,6435.5
+Lymphoma,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13680.6,3425.8,5547.7,4707.0
+Lymphoma,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13535.0,3346.3,5516.8,4671.9
+Lymphoma,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13869.3,3425.8,5645.1,4798.4
+Lymphoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,13721.2,3346.3,5613.0,4761.9
+Lymphoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14502.9,3694.6,5613.0,5195.4
+Lymphoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,15796.4,4270.8,5613.0,5912.6
+Melanoma,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2765.8,532.2,1862.6,371.0
+Melanoma,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3062.5,679.3,1973.6,409.5
+Melanoma,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2773.8,532.2,1869.1,372.5
+Melanoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3071.6,679.3,1981.0,411.3
+Melanoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3182.4,750.0,1981.0,451.4
+Melanoma,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3365.8,867.0,1981.0,517.8
+Ovary,2015,Females,All ages,"Incidence, Survival at constant rate",0%,5592.7,1474.1,1811.7,2306.9
+Ovary,2015,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4650.0,923.0,1670.0,2057.0
+Ovary,2015,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5697.0,1474.1,1853.6,2369.3
+Ovary,2015,Females,All ages,"Incidence, Survival follow recent trends",0%,4727.2,923.0,1701.3,2102.9
+Ovary,2015,Females,All ages,"Incidence, Survival follow recent trends",2%,5032.9,1019.0,1701.3,2312.5
+Ovary,2015,Females,All ages,"Incidence, Survival follow recent trends",5%,5538.7,1178.0,1701.3,2659.4
+Pancreas,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2549.7,1579.9,127.1,842.6
+Pancreas,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2528.5,1565.3,126.6,836.6
+Pancreas,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2713.7,1579.9,163.7,970.1
+Pancreas,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2691.2,1565.3,162.9,963.0
+Pancreas,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2949.3,1728.3,162.9,1058.1
+Pancreas,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3376.3,1997.8,162.9,1215.5
+Prostate,2015,Males,All ages,"Incidence, Survival at constant rate",0%,13857.4,5227.2,7351.2,1279.1
+Prostate,2015,Males,All ages,"Incidence follows recent trend, Survival constant",0%,13343.3,4887.9,7198.6,1256.8
+Prostate,2015,Males,All ages,"Survival follows recent trend, Incidence constant",0%,13892.2,5227.2,7381.0,1284.0
+Prostate,2015,Males,All ages,"Incidence, Survival follow recent trends",0%,13376.9,4887.9,7227.4,1261.5
+Prostate,2015,Males,All ages,"Incidence, Survival follow recent trends",2%,13913.9,5396.7,7227.4,1289.8
+Prostate,2015,Males,All ages,"Incidence, Survival follow recent trends",5%,14802.5,6238.4,7227.4,1336.6
+Stomach,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2019.6,919.5,257.1,843.0
+Stomach,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1747.4,751.5,240.5,755.4
+Stomach,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2084.8,919.5,272.2,893.0
+Stomach,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1803.6,751.5,253.7,798.4
+Stomach,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1955.3,829.7,253.7,871.9
+Stomach,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2206.3,959.1,253.7,993.5
+Uterus,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2804.2,1169.0,834.3,800.9
+Uterus,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2666.3,1076.6,812.1,777.5
+Uterus,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2801.7,1169.0,832.0,800.6
+Uterus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2663.9,1076.6,810.0,777.2
+Uterus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2845.0,1188.7,810.0,846.3
+Uterus,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3144.7,1374.1,810.0,960.5
+Other,2015,Both sexes,All ages,"Incidence, Survival at constant rate",0%,22807.3,4245.7,12620.7,5940.8
+Other,2015,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,24130.2,4489.2,12818.7,6822.3
+Other,2015,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,24540.8,4245.7,14036.5,6258.6
+Other,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,25848.6,4489.2,14197.6,7161.8
+Other,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,26827.7,4956.4,14197.6,7673.6
+Other,2015,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,28447.4,5729.4,14197.6,8520.4
+AllSites,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,143940.3,45036.4,55328.2,43575.8
+AllSites,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,137625.6,40772.9,54276.4,42576.3
+AllSites,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,147951.3,45036.4,57815.2,45099.8
+AllSites,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,141441.5,40772.9,56664.7,44003.8
+AllSites,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,151217.6,45916.9,56664.7,48636.0
+AllSites,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,167795.0,54639.6,56664.7,56490.7
+Bladder,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4457.3,1109.5,2112.1,1235.6
+Bladder,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4174.6,975.2,2022.0,1177.4
+Bladder,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4495.3,1109.5,2136.1,1249.7
+Bladder,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4209.8,975.2,2044.2,1190.4
+Bladder,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4445.4,1098.2,2044.2,1303.0
+Bladder,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4844.9,1306.9,2044.2,1493.8
+Brain,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5110.2,1377.6,1240.0,2492.6
+Brain,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5010.3,1319.0,1230.7,2460.6
+Brain,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5249.1,1377.6,1278.4,2593.1
+Brain,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5145.3,1319.0,1268.1,2558.2
+Brain,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5619.1,1485.4,1268.1,2865.6
+Brain,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6422.7,1767.5,1268.1,3387.0
+Breast,2016,Females,All ages,"Incidence, Survival at constant rate",0%,18904.3,6541.4,8037.8,4325.1
+Breast,2016,Females,All ages,"Incidence follows recent trend, Survival constant",0%,17768.1,5893.0,7733.5,4141.6
+Breast,2016,Females,All ages,"Survival follows recent trend, Incidence constant",0%,18994.5,6541.4,8096.4,4356.7
+Breast,2016,Females,All ages,"Incidence, Survival follow recent trends",0%,17851.9,5893.0,7788.0,4170.9
+Breast,2016,Females,All ages,"Incidence, Survival follow recent trends",2%,19107.7,6636.5,7788.0,4683.2
+Breast,2016,Females,All ages,"Incidence, Survival follow recent trends",5%,21237.0,7897.2,7788.0,5551.8
+Cervix,2016,Females,All ages,"Incidence, Survival at constant rate",0%,1544.7,497.2,362.5,685.0
+Cervix,2016,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1284.4,327.5,337.0,620.0
+Cervix,2016,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.5,497.2,362.9,686.4
+Cervix,2016,Females,All ages,"Incidence, Survival follow recent trends",0%,1285.8,327.5,337.3,621.0
+Cervix,2016,Females,All ages,"Incidence, Survival follow recent trends",2%,1398.6,368.8,337.3,692.5
+Cervix,2016,Females,All ages,"Incidence, Survival follow recent trends",5%,1589.9,438.8,337.3,813.8
+Colorectal,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,15917.1,6649.7,4443.8,4823.5
+Colorectal,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13873.8,5372.5,4125.5,4375.8
+Colorectal,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,16143.7,6649.7,4552.6,4941.3
+Colorectal,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14069.1,5372.5,4219.6,4477.0
+Colorectal,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,15178.3,6050.3,4219.6,4908.5
+Colorectal,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,17059.2,7199.7,4219.6,5640.0
+Esophagus,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1590.8,656.8,189.6,744.3
+Esophagus,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1552.2,635.9,186.7,729.6
+Esophagus,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1745.6,656.8,225.3,863.5
+Esophagus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1704.0,635.9,221.7,846.4
+Esophagus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1879.6,716.2,221.7,941.8
+Esophagus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2177.5,852.2,221.7,1103.6
+Head_Neck,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4039.2,1201.2,1121.4,1716.7
+Head_Neck,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3685.6,1009.4,1067.4,1608.8
+Head_Neck,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4067.5,1201.2,1132.8,1733.5
+Head_Neck,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3711.1,1009.4,1077.8,1623.9
+Head_Neck,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4028.2,1136.7,1077.8,1813.7
+Head_Neck,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4566.0,1352.7,1077.8,2135.6
+Kidney,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4569.0,1284.1,1954.4,1330.4
+Kidney,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5139.3,1589.7,2099.3,1450.3
+Kidney,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4661.4,1284.1,2009.6,1367.7
+Kidney,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5246.4,1589.7,2163.2,1493.5
+Kidney,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5588.2,1790.3,2163.2,1634.8
+Kidney,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6167.9,2130.4,2163.2,1874.4
+Leukemia,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6322.4,870.8,2477.5,2974.0
+Leukemia,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6106.9,820.5,2408.3,2878.0
+Leukemia,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,6479.1,870.8,2548.3,3059.9
+Leukemia,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6255.7,820.5,2475.6,2959.6
+Leukemia,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6694.9,924.1,2475.6,3295.3
+Leukemia,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7439.6,1099.6,2475.6,3864.4
+Lung,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13648.0,5926.7,2076.2,5645.0
+Lung,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11846.1,4914.1,1926.8,5005.2
+Lung,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,13938.1,5926.7,2162.4,5848.9
+Lung,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12090.3,4914.1,2000.1,5176.1
+Lung,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13318.4,5534.0,2000.1,5784.2
+Lung,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,15400.9,6585.3,2000.1,6815.5
+Lymphoma,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13996.1,3480.6,5680.0,4835.4
+Lymphoma,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13829.5,3393.5,5642.6,4793.4
+Lymphoma,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14227.0,3480.6,5799.0,4947.4
+Lymphoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14056.9,3393.5,5760.0,4903.5
+Lymphoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,15025.4,3821.6,5760.0,5443.9
+Lymphoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,16667.7,4547.5,5760.0,6360.2
+Melanoma,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2845.1,540.4,1926.2,378.5
+Melanoma,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3193.5,704.5,2065.2,423.8
+Melanoma,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2854.8,540.4,1934.2,380.2
+Melanoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3204.7,704.5,2074.4,425.8
+Melanoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3343.9,793.4,2074.4,476.2
+Melanoma,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3579.9,944.1,2074.4,561.5
+Ovary,2016,Females,All ages,"Incidence, Survival at constant rate",0%,5685.3,1489.6,1842.0,2353.7
+Ovary,2016,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4626.8,893.8,1670.7,2062.2
+Ovary,2016,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5812.5,1489.6,1893.6,2429.4
+Ovary,2016,Females,All ages,"Incidence, Survival follow recent trends",0%,4718.4,893.8,1708.3,2116.3
+Ovary,2016,Females,All ages,"Incidence, Survival follow recent trends",2%,5086.8,1006.6,1708.3,2371.9
+Ovary,2016,Females,All ages,"Incidence, Survival follow recent trends",5%,5711.4,1197.8,1708.3,2805.3
+Pancreas,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2607.3,1610.2,132.3,864.8
+Pancreas,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2584.7,1594.7,131.7,858.3
+Pancreas,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2800.4,1610.2,175.9,1014.4
+Pancreas,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2776.2,1594.7,175.0,1006.5
+Pancreas,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3097.9,1795.9,175.0,1127.0
+Pancreas,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3643.4,2137.1,175.0,1331.3
+Prostate,2016,Males,All ages,"Incidence, Survival at constant rate",0%,14320.4,5382.3,7619.7,1318.4
+Prostate,2016,Males,All ages,"Incidence follows recent trend, Survival constant",0%,13719.5,5000.2,7428.8,1290.5
+Prostate,2016,Males,All ages,"Survival follows recent trend, Incidence constant",0%,14364.2,5382.3,7657.2,1324.7
+Prostate,2016,Males,All ages,"Incidence, Survival follow recent trends",0%,13761.7,5000.2,7464.9,1296.5
+Prostate,2016,Males,All ages,"Incidence, Survival follow recent trends",2%,14427.4,5631.1,7464.9,1331.4
+Prostate,2016,Males,All ages,"Incidence, Survival follow recent trends",5%,15556.2,6700.8,7464.9,1390.5
+Stomach,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2064.5,938.9,263.3,862.2
+Stomach,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1758.5,753.3,243.5,761.8
+Stomach,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2141.6,938.9,281.6,921.1
+Stomach,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1824.1,753.3,259.1,811.7
+Stomach,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2009.7,848.3,259.1,902.2
+Stomach,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2324.3,1009.5,259.1,1055.7
+Uterus,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2848.8,1190.9,846.7,811.2
+Uterus,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2696.8,1091.3,821.0,784.5
+Uterus,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2845.4,1190.9,843.8,810.7
+Uterus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2693.7,1091.3,818.3,784.1
+Uterus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2915.8,1229.0,818.3,868.6
+Uterus,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3292.6,1462.5,818.3,1011.8
+Other,2016,Both sexes,All ages,"Incidence, Survival at constant rate",0%,23470.0,4288.4,13002.6,6179.0
+Other,2016,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,24774.9,4484.8,13135.6,7154.5
+Other,2016,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,25584.7,4288.4,14725.1,6571.3
+Other,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,26836.4,4484.8,14809.3,7542.3
+Other,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,28052.2,5050.6,14809.3,8192.3
+Other,2016,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,30113.9,6010.1,14809.3,9294.5
+AllSites,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,147370.2,45840.8,56834.3,44695.2
+AllSites,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,140116.7,41148.2,55512.9,43455.5
+AllSites,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,152144.9,45840.8,59812.1,46491.9
+AllSites,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,144674.2,41148.2,58364.2,45161.8
+AllSites,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,156378.9,47266.4,58364.2,50748.4
+AllSites,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,176721.7,57899.7,58364.2,60457.8
+Bladder,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4558.5,1137.7,2157.1,1263.6
+Bladder,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4229.9,984.9,2050.1,1194.9
+Bladder,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4604.3,1137.7,2186.0,1280.6
+Bladder,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4272.0,984.9,2076.5,1210.5
+Bladder,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4553.2,1131.3,2076.5,1345.4
+Bladder,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5042.1,1385.9,2076.5,1579.7
+Brain,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5217.7,1397.6,1269.3,2550.8
+Brain,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5104.5,1332.9,1258.1,2513.5
+Brain,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5381.7,1397.6,1315.4,2668.7
+Brain,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5263.5,1332.9,1302.9,2627.7
+Brain,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5833.5,1531.1,1302.9,2999.6
+Brain,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6824.2,1875.5,1302.9,3645.8
+Breast,2017,Females,All ages,"Incidence, Survival at constant rate",0%,19303.9,6620.5,8256.2,4427.2
+Breast,2017,Females,All ages,"Incidence follows recent trend, Survival constant",0%,18061.1,5929.3,7910.2,4221.7
+Breast,2017,Females,All ages,"Survival follows recent trend, Incidence constant",0%,19415.3,6620.5,8328.9,4465.9
+Breast,2017,Females,All ages,"Incidence, Survival follow recent trends",0%,18164.3,5929.3,7977.6,4257.5
+Breast,2017,Females,All ages,"Incidence, Survival follow recent trends",2%,19662.0,6810.9,7977.6,4873.5
+Breast,2017,Females,All ages,"Incidence, Survival follow recent trends",5%,22264.9,8343.1,7977.6,5944.3
+Cervix,2017,Females,All ages,"Incidence, Survival at constant rate",0%,1544.7,497.9,362.0,684.8
+Cervix,2017,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1265.4,318.5,333.6,613.2
+Cervix,2017,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.9,497.9,362.5,686.5
+Cervix,2017,Females,All ages,"Incidence, Survival follow recent trends",0%,1267.0,318.5,334.0,614.4
+Cervix,2017,Females,All ages,"Incidence, Survival follow recent trends",2%,1397.6,365.9,334.0,697.7
+Cervix,2017,Females,All ages,"Incidence, Survival follow recent trends",5%,1624.7,448.2,334.0,842.5
+Colorectal,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,16267.7,6786.6,4553.1,4928.0
+Colorectal,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,13986.7,5394.0,4177.4,4415.3
+Colorectal,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,16538.1,6786.6,4684.1,5067.4
+Colorectal,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14217.1,5394.0,4289.4,4533.7
+Colorectal,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,15533.5,6196.0,4289.4,5048.1
+Colorectal,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,17821.3,7589.8,4289.4,5942.1
+Esophagus,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1634.1,670.0,196.7,767.3
+Esophagus,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1590.7,647.2,193.3,750.3
+Esophagus,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1816.2,670.0,239.2,907.0
+Esophagus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1769.0,647.2,234.9,886.9
+Esophagus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,1982.8,743.4,234.9,1004.5
+Esophagus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2354.3,910.6,234.9,1208.8
+Head_Neck,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4113.2,1221.2,1143.2,1748.8
+Head_Neck,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3712.4,1010.4,1078.7,1623.3
+Head_Neck,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4147.7,1221.2,1157.2,1769.3
+Head_Neck,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3743.2,1010.4,1091.3,1641.4
+Head_Neck,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4119.4,1160.7,1091.3,1867.5
+Head_Neck,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4773.4,1421.8,1091.3,2260.3
+Kidney,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4704.0,1311.1,2018.4,1374.5
+Kidney,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5360.9,1650.7,2193.7,1516.5
+Kidney,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4815.3,1311.1,2084.9,1419.3
+Kidney,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5491.3,1650.7,2271.6,1569.0
+Kidney,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,5911.4,1896.2,2271.6,1743.7
+Kidney,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,6641.5,2322.7,2271.6,2047.2
+Leukemia,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6476.8,883.9,2541.9,3051.1
+Leukemia,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6244.9,831.0,2466.5,2947.4
+Leukemia,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,6663.8,883.9,2626.8,3153.0
+Leukemia,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6422.2,831.0,2547.1,3044.1
+Leukemia,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6952.2,954.6,2547.1,3450.6
+Leukemia,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7873.4,1169.3,2547.1,4157.0
+Lung,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,13917.2,6041.8,2118.8,5756.6
+Lung,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11923.3,4938.1,1945.4,5039.8
+Lung,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14254.8,6041.8,2220.0,5993.0
+Lung,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12203.5,4938.1,2030.3,5235.0
+Lung,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,13662.4,5672.4,2030.3,5959.8
+Lung,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,16198.1,6948.5,2030.3,7219.4
+Lymphoma,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14312.4,3536.0,5812.3,4964.1
+Lymphoma,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14123.8,3441.0,5768.0,4914.8
+Lymphoma,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14590.1,3536.0,5955.2,5098.9
+Lymphoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14397.0,3441.0,5908.8,5047.2
+Lymphoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,15563.2,3952.6,5908.8,5701.7
+Lymphoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,17589.9,4841.8,5908.8,6839.3
+Melanoma,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2924.1,548.4,1989.4,386.3
+Melanoma,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3328.5,730.3,2159.2,438.9
+Melanoma,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2935.7,548.4,1999.0,388.3
+Melanoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3342.1,730.3,2170.5,441.3
+Melanoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3512.1,838.9,2170.5,502.6
+Melanoma,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3807.4,1027.7,2170.5,609.2
+Ovary,2017,Females,All ages,"Incidence, Survival at constant rate",0%,5775.8,1504.7,1871.7,2399.4
+Ovary,2017,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4598.9,865.3,1669.2,2064.4
+Ovary,2017,Females,All ages,"Survival follows recent trend, Incidence constant",0%,5928.3,1504.7,1934.0,2489.7
+Ovary,2017,Females,All ages,"Incidence, Survival follow recent trends",0%,4705.8,865.3,1713.4,2127.1
+Ovary,2017,Females,All ages,"Incidence, Survival follow recent trends",2%,5137.0,993.9,1713.4,2429.7
+Ovary,2017,Females,All ages,"Incidence, Survival follow recent trends",5%,5886.6,1217.5,1713.4,2955.7
+Pancreas,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2664.7,1640.9,137.3,886.5
+Pancreas,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2640.6,1624.5,136.6,879.5
+Pancreas,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2889.1,1640.9,188.5,1059.7
+Pancreas,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2863.2,1624.5,187.5,1051.2
+Pancreas,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3252.9,1866.1,187.5,1199.3
+Pancreas,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3930.2,2285.9,187.5,1456.8
+Prostate,2017,Males,All ages,"Incidence, Survival at constant rate",0%,14802.3,5540.2,7900.5,1361.5
+Prostate,2017,Males,All ages,"Incidence follows recent trend, Survival constant",0%,14107.6,5113.3,7667.0,1327.3
+Prostate,2017,Males,All ages,"Survival follows recent trend, Incidence constant",0%,14856.1,5540.2,7946.6,1369.3
+Prostate,2017,Males,All ages,"Incidence, Survival follow recent trends",0%,14159.2,5113.3,7711.3,1334.7
+Prostate,2017,Males,All ages,"Incidence, Survival follow recent trends",2%,14961.4,5873.6,7711.3,1376.6
+Prostate,2017,Males,All ages,"Incidence, Survival follow recent trends",5%,16355.7,7194.9,7711.3,1449.5
+Stomach,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2111.3,959.1,269.9,882.3
+Stomach,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1770.3,755.3,246.5,768.4
+Stomach,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2201.5,959.1,291.6,950.8
+Stomach,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1845.8,755.3,264.9,825.6
+Stomach,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2066.6,867.7,264.9,934.0
+Stomach,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2450.2,1062.8,264.9,1122.5
+Uterus,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2896.2,1212.8,860.3,823.1
+Uterus,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2729.6,1105.8,830.9,792.9
+Uterus,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2891.7,1212.8,856.6,822.4
+Uterus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2725.4,1105.8,827.4,792.3
+Uterus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2990.5,1270.2,827.4,892.9
+Uterus,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3451.1,1556.0,827.4,1067.8
+Other,2017,Both sexes,All ages,"Incidence, Survival at constant rate",0%,24145.7,4330.6,13376.1,6439.0
+Other,2017,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,25337.7,4475.7,13428.5,7433.5
+Other,2017,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,26668.1,4330.6,15435.4,6902.1
+Other,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,27822.6,4475.7,15424.9,7922.1
+Other,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,29287.2,5141.1,15424.9,8721.2
+Other,2017,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,31832.7,6297.7,15424.9,10110.1
+AllSites,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,150779.1,46648.0,58333.3,45797.8
+AllSites,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,142613.3,41516.4,56718.7,44378.2
+AllSites,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,156408.2,46648.0,61848.4,47911.8
+AllSites,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,147942.6,41516.4,60069.3,46356.9
+AllSites,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,161666.5,48643.1,60069.3,52954.1
+AllSites,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,186114.5,61338.6,60069.3,64706.5
+Bladder,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4665.7,1167.8,2204.2,1293.7
+Bladder,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4285.9,994.7,2078.1,1213.1
+Bladder,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4720.2,1167.8,2238.5,1313.9
+Bladder,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4335.5,994.7,2109.2,1231.6
+Bladder,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4664.5,1165.5,2109.2,1389.8
+Bladder,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5250.5,1469.7,2109.2,1671.6
+Brain,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5323.8,1417.5,1298.4,2607.9
+Brain,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5196.9,1346.6,1285.2,2565.2
+Brain,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5515.0,1417.5,1352.9,2744.6
+Brain,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5381.7,1346.6,1337.9,2697.2
+Brain,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6053.1,1577.8,1337.9,3137.4
+Brain,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7249.0,1989.5,1337.9,3921.5
+Breast,2018,Females,All ages,"Incidence, Survival at constant rate",0%,19700.0,6697.5,8471.6,4530.8
+Breast,2018,Females,All ages,"Incidence follows recent trend, Survival constant",0%,18346.9,5963.1,8081.6,4302.1
+Breast,2018,Females,All ages,"Survival follows recent trend, Incidence constant",0%,19834.9,6697.5,8560.0,4577.4
+Breast,2018,Females,All ages,"Incidence, Survival follow recent trends",0%,18471.5,5963.1,8163.3,4345.1
+Breast,2018,Females,All ages,"Incidence, Survival follow recent trends",2%,20220.7,6986.8,8163.3,5070.7
+Breast,2018,Females,All ages,"Incidence, Survival follow recent trends",5%,23336.9,8810.3,8163.3,6363.4
+Cervix,2018,Females,All ages,"Incidence, Survival at constant rate",0%,1543.9,498.5,361.6,683.9
+Cervix,2018,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1245.4,309.8,330.1,605.5
+Cervix,2018,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1546.4,498.5,362.2,685.8
+Cervix,2018,Females,All ages,"Incidence, Survival follow recent trends",0%,1247.2,309.8,330.6,606.8
+Cervix,2018,Females,All ages,"Incidence, Survival follow recent trends",2%,1395.3,363.0,330.6,701.7
+Cervix,2018,Females,All ages,"Incidence, Survival follow recent trends",5%,1659.0,457.7,330.6,870.7
+Colorectal,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,16630.9,6927.3,4665.8,5037.8
+Colorectal,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14101.9,5416.3,4229.0,4456.7
+Colorectal,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,16949.2,6927.3,4821.3,5200.7
+Colorectal,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14369.9,5416.3,4360.3,4593.3
+Colorectal,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,15900.4,6346.0,4360.3,5194.0
+Colorectal,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,18626.8,8002.3,4360.3,6264.2
+Esophagus,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1677.3,683.1,203.7,790.6
+Esophagus,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1628.9,658.1,199.7,771.0
+Esophagus,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1889.1,683.1,253.6,952.4
+Esophagus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1835.7,658.1,248.5,929.1
+Esophagus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2090.5,771.1,248.5,1070.9
+Esophagus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2544.5,972.4,248.5,1323.6
+Head_Neck,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4187.9,1241.0,1165.3,1781.7
+Head_Neck,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3738.0,1011.0,1089.6,1637.4
+Head_Neck,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4229.2,1241.0,1182.2,1806.0
+Head_Neck,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3774.5,1011.0,1104.6,1658.9
+Head_Neck,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4211.6,1184.6,1104.6,1922.4
+Head_Neck,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4990.3,1493.8,1104.6,2391.9
+Kidney,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4839.7,1337.9,2082.5,1419.3
+Kidney,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5589.5,1713.3,2290.8,1585.5
+Kidney,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4971.8,1337.9,2161.4,1472.5
+Kidney,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5746.2,1713.3,2384.4,1648.5
+Kidney,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6251.6,2007.4,2384.4,1859.9
+Kidney,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7152.0,2531.3,2384.4,2236.4
+Leukemia,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6631.9,897.2,2605.7,3129.0
+Leukemia,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6382.9,841.6,2524.0,3017.4
+Leukemia,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,6851.9,897.2,2706.2,3248.5
+Leukemia,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6591.3,841.6,2619.2,3130.5
+Leukemia,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,7217.8,986.0,2619.2,3612.5
+Leukemia,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,8333.9,1243.4,2619.2,4471.2
+Lung,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14185.5,6155.6,2161.4,5868.5
+Lung,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,11995.0,4959.7,1962.9,5072.4
+Lung,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14574.0,6155.6,2278.7,6139.7
+Lung,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12312.9,4959.7,2060.0,5293.1
+Lung,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14009.9,5811.1,2060.0,6138.8
+Lung,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,17033.1,7327.8,2060.0,7645.4
+Lymphoma,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14626.7,3591.5,5943.1,5092.2
+Lymphoma,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14415.1,3488.6,5891.4,5035.1
+Lymphoma,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14955.9,3591.5,6112.2,5252.2
+Lymphoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14738.6,3488.6,6058.0,5192.1
+Lymphoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,16113.4,4087.4,6058.0,5968.0
+Lymphoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,18562.5,5154.2,6058.0,7350.3
+Melanoma,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3002.5,556.3,2051.7,394.5
+Melanoma,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3467.0,756.8,2255.4,454.9
+Melanoma,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3016.1,556.3,2063.1,396.7
+Melanoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3483.3,756.8,2268.9,457.6
+Melanoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3686.6,886.7,2268.9,531.0
+Melanoma,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4048.7,1118.1,2268.9,661.6
+Ovary,2018,Females,All ages,"Incidence, Survival at constant rate",0%,5862.6,1519.2,1900.2,2443.2
+Ovary,2018,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4565.4,837.2,1665.1,2063.1
+Ovary,2018,Females,All ages,"Survival follows recent trend, Incidence constant",0%,6042.8,1519.2,1974.2,2549.4
+Ovary,2018,Females,All ages,"Incidence, Survival follow recent trends",0%,4688.1,837.2,1716.1,2134.8
+Ovary,2018,Females,All ages,"Incidence, Survival follow recent trends",2%,5182.2,981.0,1716.1,2485.1
+Ovary,2018,Females,All ages,"Incidence, Survival follow recent trends",5%,6062.4,1237.0,1716.1,3109.3
+Pancreas,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2720.8,1671.9,141.8,907.0
+Pancreas,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2695.3,1654.6,141.1,899.6
+Pancreas,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2978.6,1671.9,201.4,1105.3
+Pancreas,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2950.8,1654.6,200.1,1096.0
+Pancreas,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3413.0,1938.7,200.1,1274.2
+Pancreas,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4236.3,2444.6,200.1,1591.5
+Prostate,2018,Males,All ages,"Incidence, Survival at constant rate",0%,15299.2,5698.6,8190.8,1409.9
+Prostate,2018,Males,All ages,"Incidence follows recent trend, Survival constant",0%,14503.9,5225.2,7910.3,1368.4
+Prostate,2018,Males,All ages,"Survival follows recent trend, Incidence constant",0%,15364.2,5698.6,8246.3,1419.3
+Prostate,2018,Males,All ages,"Incidence, Survival follow recent trends",0%,14565.9,5225.2,7963.3,1377.4
+Prostate,2018,Males,All ages,"Incidence, Survival follow recent trends",2%,15512.5,6122.1,7963.3,1427.0
+Prostate,2018,Males,All ages,"Incidence, Survival follow recent trends",5%,17198.7,7720.0,7963.3,1515.4
+Stomach,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2159.3,979.9,276.7,902.7
+Stomach,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1781.9,757.6,249.5,774.8
+Stomach,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2263.5,979.9,302.1,981.4
+Stomach,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1867.9,757.6,270.8,839.6
+Stomach,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2125.2,887.6,270.8,966.8
+Stomach,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2583.5,1119.3,270.8,1193.4
+Uterus,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2945.7,1234.5,874.7,836.6
+Uterus,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2763.8,1120.0,841.2,802.6
+Uterus,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2940.1,1234.5,870.0,835.6
+Uterus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2758.5,1120.0,836.8,801.8
+Uterus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3068.4,1312.2,836.8,919.3
+Uterus,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3620.3,1654.7,836.8,1128.8
+Other,2018,Both sexes,All ages,"Incidence, Survival at constant rate",0%,24775.5,4372.7,13734.2,6668.6
+Other,2018,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,25909.5,4462.2,13693.7,7753.5
+Other,2018,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,27765.2,4372.7,16162.2,7230.4
+Other,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,28823.1,4462.2,16037.2,8323.6
+Other,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,30549.9,5228.2,16037.2,9284.5
+Other,2018,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,33626.1,6592.7,16037.2,10996.1
+AllSites,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,154254.5,47469.0,59856.4,46929.2
+AllSites,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,145102.0,41887.3,57930.0,45284.7
+AllSites,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,160797.1,47469.0,63958.7,49369.4
+AllSites,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,151327.7,41887.3,61821.0,47619.5
+AllSites,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,167177.2,50059.2,61821.0,55297.1
+AllSites,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,196118.2,64980.9,61821.0,69316.3
+Bladder,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4783.0,1200.5,2255.5,1326.9
+Bladder,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4346.0,1005.1,2108.0,1233.0
+Bladder,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4847.0,1200.5,2295.8,1350.8
+Bladder,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4403.8,1005.1,2144.2,1254.5
+Bladder,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4782.8,1201.2,2144.2,1437.4
+Bladder,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5474.9,1559.2,2144.2,1771.5
+Brain,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5429.6,1437.5,1327.5,2664.6
+Brain,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5288.5,1360.3,1312.1,2616.1
+Brain,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5650.1,1437.5,1391.2,2821.5
+Brain,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5501.0,1360.3,1373.5,2767.2
+Brain,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6279.1,1625.6,1373.5,3279.9
+Brain,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7699.8,2110.2,1373.5,4216.0
+Breast,2019,Females,All ages,"Incidence, Survival at constant rate",0%,20100.9,6773.7,8689.7,4637.5
+Breast,2019,Females,All ages,"Incidence follows recent trend, Survival constant",0%,18633.5,5995.6,8253.4,4384.5
+Breast,2019,Females,All ages,"Survival follows recent trend, Incidence constant",0%,20261.7,6773.7,8795.3,4692.7
+Breast,2019,Females,All ages,"Incidence, Survival follow recent trends",0%,18781.5,5995.6,8350.7,4435.3
+Breast,2019,Females,All ages,"Incidence, Survival follow recent trends",2%,20792.8,7165.3,8350.7,5276.8
+Breast,2019,Females,All ages,"Incidence, Survival follow recent trends",5%,24465.3,9301.1,8350.7,6813.5
+Cervix,2019,Females,All ages,"Incidence, Survival at constant rate",0%,1543.0,499.0,361.3,682.7
+Cervix,2019,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1225.1,301.2,326.7,597.2
+Cervix,2019,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1545.9,499.0,362.1,684.9
+Cervix,2019,Females,All ages,"Incidence, Survival follow recent trends",0%,1227.2,301.2,327.2,598.8
+Cervix,2019,Females,All ages,"Incidence, Survival follow recent trends",2%,1392.2,360.0,327.2,705.0
+Cervix,2019,Females,All ages,"Incidence, Survival follow recent trends",5%,1693.5,467.3,327.2,899.0
+Colorectal,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,17015.5,7073.8,4786.3,5155.4
+Colorectal,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14227.0,5441.0,4284.1,4501.9
+Colorectal,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,17385.8,7073.8,4968.4,5343.5
+Colorectal,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14535.0,5441.0,4436.1,4657.9
+Colorectal,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,16287.5,6502.5,4436.1,5348.9
+Colorectal,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,19487.5,8440.8,4436.1,6610.6
+Esophagus,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1720.5,696.1,210.6,813.8
+Esophagus,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1666.9,669.0,206.1,791.8
+Esophagus,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,1964.2,696.1,268.6,999.6
+Esophagus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1904.4,669.0,262.7,972.7
+Esophagus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2203.3,799.6,262.7,1141.1
+Esophagus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2749.1,1037.9,262.7,1448.5
+Head_Neck,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4264.5,1260.9,1188.2,1815.5
+Head_Neck,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3763.4,1011.4,1100.5,1651.5
+Head_Neck,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4313.3,1260.9,1208.2,1844.2
+Head_Neck,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3806.1,1011.4,1118.1,1676.5
+Head_Neck,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4306.0,1208.7,1118.1,1979.1
+Head_Neck,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5218.7,1569.1,1118.1,2531.5
+Kidney,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4977.9,1364.9,2147.5,1465.5
+Kidney,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5827.5,1777.7,2391.9,1657.9
+Kidney,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5132.7,1364.9,2240.1,1527.7
+Kidney,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6013.3,1777.7,2503.0,1732.7
+Kidney,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6611.9,2124.5,2503.0,1984.4
+Kidney,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,7704.9,2757.8,2503.0,2444.1
+Leukemia,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6789.8,910.9,2670.0,3208.9
+Leukemia,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6523.2,852.5,2581.7,3088.9
+Leukemia,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,7045.7,910.9,2787.3,3347.4
+Leukemia,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6765.2,852.5,2692.7,3219.9
+Leukemia,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,7494.2,1018.8,2692.7,3782.6
+Leukemia,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,8825.5,1322.5,2692.7,4810.2
+Lung,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14459.8,6269.8,2206.1,5983.9
+Lung,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12067.8,4980.3,1981.3,5106.2
+Lung,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,14902.7,6269.8,2340.7,6292.2
+Lung,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12425.0,4980.3,2091.3,5353.4
+Lung,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14368.3,5952.0,2091.3,6325.0
+Lung,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,17916.7,7726.2,2091.3,8099.2
+Lymphoma,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14944.7,3648.1,6074.8,5221.8
+Lymphoma,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14709.2,3537.1,6015.5,5156.6
+Lymphoma,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15330.3,3648.1,6272.7,5409.6
+Lymphoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,15087.7,3537.1,6210.1,5340.5
+Lymphoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,16683.1,4227.2,6210.1,6245.8
+Lymphoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,19596.3,5487.2,6210.1,7899.0
+Melanoma,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3080.9,564.2,2113.9,402.8
+Melanoma,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3610.2,784.0,2354.7,471.6
+Melanoma,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3096.8,564.2,2127.3,405.4
+Melanoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3629.4,784.0,2370.7,474.7
+Melanoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3868.7,936.9,2370.7,561.1
+Melanoma,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4305.6,1216.2,2370.7,718.7
+Ovary,2019,Females,All ages,"Incidence, Survival at constant rate",0%,5948.6,1533.4,1928.6,2486.5
+Ovary,2019,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4528.9,809.9,1659.4,2059.6
+Ovary,2019,Females,All ages,"Survival follows recent trend, Incidence constant",0%,6158.7,1533.4,2015.4,2609.9
+Ovary,2019,Females,All ages,"Incidence, Survival follow recent trends",0%,4668.0,809.9,1717.5,2140.6
+Ovary,2019,Females,All ages,"Incidence, Survival follow recent trends",2%,5225.0,967.9,1717.5,2539.6
+Ovary,2019,Females,All ages,"Incidence, Survival follow recent trends",5%,6242.1,1256.4,1717.5,3268.2
+Pancreas,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2777.1,1703.7,146.4,927.0
+Pancreas,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2750.2,1685.5,145.6,919.1
+Pancreas,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3070.4,1703.7,214.8,1151.9
+Pancreas,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3040.7,1685.5,213.4,1141.9
+Pancreas,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3580.2,2014.3,213.4,1352.6
+Pancreas,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4565.4,2614.7,213.4,1737.3
+Prostate,2019,Males,All ages,"Incidence, Survival at constant rate",0%,15816.9,5857.4,8496.6,1462.9
+Prostate,2019,Males,All ages,"Incidence follows recent trend, Survival constant",0%,14913.6,5335.6,8164.5,1413.5
+Prostate,2019,Males,All ages,"Survival follows recent trend, Incidence constant",0%,15894.0,5857.4,8562.5,1474.2
+Prostate,2019,Males,All ages,"Incidence, Survival follow recent trends",0%,14987.0,5335.6,8227.2,1424.2
+Prostate,2019,Males,All ages,"Incidence, Survival follow recent trends",2%,16085.9,6376.6,8227.2,1482.2
+Prostate,2019,Males,All ages,"Incidence, Survival follow recent trends",5%,18092.5,8277.3,8227.2,1588.0
+Stomach,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2209.7,1001.7,283.9,924.1
+Stomach,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1794.4,760.3,252.7,781.5
+Stomach,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2328.9,1001.7,313.4,1013.8
+Stomach,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1891.5,760.3,277.0,854.2
+Stomach,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2186.7,908.6,277.0,1001.1
+Stomach,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2725.9,1179.4,277.0,1269.4
+Uterus,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2998.8,1256.3,890.5,852.0
+Uterus,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2800.8,1134.0,852.8,814.0
+Uterus,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2991.7,1256.3,884.7,850.7
+Uterus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2794.3,1134.0,847.4,812.9
+Uterus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3151.0,1355.2,847.4,948.4
+Uterus,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3802.4,1759.2,847.4,1195.7
+Other,2019,Both sexes,All ages,"Incidence, Survival at constant rate",0%,25393.2,4417.0,14078.9,6897.4
+Other,2019,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,26425.7,4446.8,13939.1,8039.8
+Other,2019,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,28877.0,4417.0,16910.3,7549.6
+Other,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,29866.5,4446.8,16658.0,8761.7
+Other,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,31878.5,5314.3,16658.0,9906.1
+Other,2019,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,35552.3,6898.4,16658.0,11995.9
+AllSites,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,157767.0,48317.2,61373.3,48076.5
+AllSites,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,147571.7,42272.9,59101.5,46197.4
+AllSites,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,165209.8,48317.2,66099.7,50792.8
+AllSites,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,154695.9,42272.9,63569.4,48853.7
+AllSites,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,172765.5,51530.4,63569.4,57665.8
+AllSites,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,206587.1,68858.0,63569.4,74159.7
+Bladder,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4905.9,1236.4,2308.2,1361.3
+Bladder,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,4405.6,1016.3,2136.9,1252.5
+Bladder,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4980.4,1236.4,2355.0,1389.1
+Bladder,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,4472.0,1016.3,2178.5,1277.3
+Bladder,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4903.5,1238.8,2178.5,1486.1
+Bladder,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5711.0,1655.4,2178.5,1877.1
+Brain,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5535.0,1457.7,1356.5,2720.8
+Brain,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,5379.1,1374.1,1338.7,2666.3
+Brain,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5786.9,1457.7,1430.0,2899.1
+Brain,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,5621.2,1374.1,1409.5,2837.6
+Brain,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6511.7,1675.1,1409.5,3427.1
+Brain,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,8178.3,2238.3,1409.5,4530.5
+Breast,2020,Females,All ages,"Incidence, Survival at constant rate",0%,20496.3,6851.0,8903.6,4741.7
+Breast,2020,Females,All ages,"Incidence follows recent trend, Survival constant",0%,18910.9,6028.5,8419.0,4463.4
+Breast,2020,Females,All ages,"Survival follows recent trend, Incidence constant",0%,20685.3,6851.0,9028.0,4806.2
+Breast,2020,Females,All ages,"Incidence, Survival follow recent trends",0%,19084.2,6028.5,8533.2,4522.5
+Breast,2020,Females,All ages,"Incidence, Survival follow recent trends",2%,21367.3,7348.7,8533.2,5485.5
+Breast,2020,Females,All ages,"Incidence, Survival follow recent trends",5%,25640.8,9819.8,8533.2,7287.8
+Cervix,2020,Females,All ages,"Incidence, Survival at constant rate",0%,1541.9,499.6,361.0,681.3
+Cervix,2020,Females,All ages,"Incidence follows recent trend, Survival constant",0%,1204.6,293.0,323.0,588.6
+Cervix,2020,Females,All ages,"Survival follows recent trend, Incidence constant",0%,1545.3,499.6,361.9,683.8
+Cervix,2020,Females,All ages,"Incidence, Survival follow recent trends",0%,1206.9,293.0,323.7,590.3
+Cervix,2020,Females,All ages,"Incidence, Survival follow recent trends",2%,1388.5,357.1,323.7,707.7
+Cervix,2020,Females,All ages,"Incidence, Survival follow recent trends",5%,1728.3,477.2,323.7,927.4
+Colorectal,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,17408.3,7228.6,4908.6,5271.1
+Colorectal,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,14349.3,5469.7,4337.2,4542.4
+Colorectal,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,17834.2,7228.6,5119.4,5486.2
+Colorectal,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,14699.4,5469.7,4511.1,4718.6
+Colorectal,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,16681.5,6667.6,4511.1,5502.8
+Colorectal,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,20391.3,8909.6,4511.1,6970.6
+Esophagus,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,1762.6,709.2,217.3,836.0
+Esophagus,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1703.5,680.0,212.3,811.3
+Esophagus,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2040.3,709.2,284.0,1047.1
+Esophagus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1973.6,680.0,277.2,1016.4
+Esophagus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2319.5,828.9,277.2,1213.4
+Esophagus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2967.0,1107.6,277.2,1582.2
+Head_Neck,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,4340.6,1281.0,1211.1,1848.5
+Head_Neck,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3786.5,1011.7,1110.8,1663.9
+Head_Neck,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,4397.6,1281.0,1234.7,1881.9
+Head_Neck,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3835.8,1011.7,1131.3,1692.8
+Head_Neck,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4400.1,1233.3,1131.3,2035.5
+Head_Neck,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,5456.1,1648.0,1131.3,2676.8
+Kidney,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,5115.7,1392.2,2212.3,1511.2
+Kidney,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6071.7,1844.3,2495.6,1731.9
+Kidney,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,5295.2,1392.2,2319.6,1583.3
+Kidney,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6289.9,1844.3,2626.0,1819.6
+Kidney,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,6989.8,2248.2,2626.0,2115.6
+Kidney,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,8299.7,3004.1,2626.0,2669.6
+Leukemia,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,6947.4,925.4,2733.4,3288.6
+Leukemia,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,6662.6,864.1,2638.4,3160.1
+Leukemia,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,7241.7,925.4,2868.8,3447.5
+Leukemia,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,6940.5,864.1,2766.3,3310.1
+Leukemia,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,7778.3,1053.3,2766.3,3958.7
+Leukemia,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,9346.5,1407.5,2766.3,5172.7
+Lung,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,14732.8,6386.9,2249.8,6096.1
+Lung,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,12135.2,5002.1,1997.9,5135.1
+Lung,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15233.1,6386.9,2402.8,6443.4
+Lung,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,12533.0,5002.1,2121.3,5409.6
+Lung,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,14730.2,6097.5,2121.3,6511.3
+Lung,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,18842.6,8147.9,2121.3,8573.4
+Lymphoma,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,15260.5,3706.8,6204.1,5349.6
+Lymphoma,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,15000.2,3587.6,6136.7,5275.9
+Lymphoma,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,15707.1,3706.8,6433.0,5567.3
+Lymphoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,15438.0,3587.6,6361.6,5488.8
+Lymphoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,17266.2,4373.3,6361.6,6531.4
+Lymphoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,20688.2,5843.9,6361.6,8482.8
+Melanoma,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3157.7,572.1,2175.0,410.6
+Melanoma,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,3756.1,812.1,2455.9,488.2
+Melanoma,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3176.0,572.1,2190.4,413.5
+Melanoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3778.4,812.1,2474.5,491.8
+Melanoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,4056.5,989.9,2474.5,592.0
+Melanoma,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4576.9,1322.8,2474.5,779.7
+Ovary,2020,Females,All ages,"Incidence, Survival at constant rate",0%,6031.3,1548.1,1955.8,2527.4
+Ovary,2020,Females,All ages,"Incidence follows recent trend, Survival constant",0%,4487.1,783.6,1651.1,2052.4
+Ovary,2020,Females,All ages,"Survival follows recent trend, Incidence constant",0%,6273.5,1548.1,2056.2,2669.2
+Ovary,2020,Females,All ages,"Incidence, Survival follow recent trends",0%,4643.0,783.6,1716.6,2142.8
+Ovary,2020,Females,All ages,"Incidence, Survival follow recent trends",2%,5262.6,955.2,1716.6,2590.8
+Ovary,2020,Females,All ages,"Incidence, Survival follow recent trends",5%,6422.5,1276.4,1716.6,3429.4
+Pancreas,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2833.8,1736.9,150.6,946.3
+Pancreas,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2805.3,1717.7,149.7,937.9
+Pancreas,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3164.6,1736.9,228.5,1199.2
+Pancreas,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,3133.0,1717.7,227.0,1188.3
+Pancreas,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3755.0,2093.8,227.0,1434.2
+Pancreas,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,4919.2,2797.9,227.0,1894.3
+Prostate,2020,Males,All ages,"Incidence, Survival at constant rate",0%,16341.4,6015.7,8809.7,1515.9
+Prostate,2020,Males,All ages,"Incidence follows recent trend, Survival constant",0%,15323.2,5444.0,8421.5,1457.7
+Prostate,2020,Males,All ages,"Survival follows recent trend, Incidence constant",0%,16431.7,6015.7,8886.7,1529.2
+Prostate,2020,Males,All ages,"Incidence, Survival follow recent trends",0%,15408.8,5444.0,8494.5,1470.3
+Prostate,2020,Males,All ages,"Incidence, Survival follow recent trends",2%,16667.7,6636.2,8494.5,1537.0
+Prostate,2020,Males,All ages,"Incidence, Survival follow recent trends",5%,19024.0,8867.7,8494.5,1661.8
+Stomach,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,2261.5,1024.8,291.2,945.4
+Stomach,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,1806.9,763.6,255.7,787.6
+Stomach,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,2396.8,1024.8,325.1,1046.9
+Stomach,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,1915.5,763.6,283.3,868.6
+Stomach,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,2250.3,930.8,283.3,1036.2
+Stomach,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,2876.9,1243.8,283.3,1349.8
+Uterus,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,3052.9,1278.5,906.8,867.6
+Uterus,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,2838.2,1148.2,864.6,825.4
+Uterus,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,3044.3,1278.5,899.8,865.9
+Uterus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,2830.3,1148.2,858.1,823.9
+Uterus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,3235.9,1399.7,858.1,978.1
+Uterus,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,3995.0,1870.3,858.1,1266.6
+Other,2020,Both sexes,All ages,"Incidence, Survival at constant rate",0%,26041.5,4466.2,14418.2,7157.1
+Other,2020,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,26945.7,4432.4,14156.5,8356.8
+Other,2020,Both sexes,All ages,"Survival follows recent trend, Incidence constant",0%,29975.9,4466.2,17675.7,7834.0
+Other,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",0%,30892.3,4432.4,17275.7,9184.3
+Other,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",2%,33201.2,5403.1,17275.7,10522.5
+Other,2020,Both sexes,All ages,"Incidence, Survival follow recent trends",5%,37522.8,7219.9,17275.7,13027.2
