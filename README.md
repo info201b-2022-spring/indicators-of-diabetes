@@ -1,4 +1,6 @@
 # Project Proposal
+Group B-2: Daniella Tsing, Eugene Kim, Brandon Nguyen, Roberto Raftery
+
 ## Domain of Interest
 In this section, you'll identify a domain that you are interested in (e.g., music, education, dance, immigration -- any field of your interest) and answer the following questions in your README.md file:
 
