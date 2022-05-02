@@ -15,6 +15,8 @@ We are lucky enough to live in a time when there is lots of publicly available d
 
 Where did you download the data (e.g., a web URL)?
 
+We downloaded the data from [kaggle](https://www.kaggle.com/datasets).
+
 How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
 
 How many observations (rows) are in your data?
