@@ -1,0 +1,53 @@
+﻿State FIPS Code,Postal Code,Name,Region Name
+0,US,United States,
+1,AL,Alabama,South East
+2,AK,Alaska,Far West
+4,AZ,Arizona,South West
+5,AR,Arkansas,South West
+6,CA,California,Far West
+8,CO,Colorado,Rockies
+9,CT,Connecticut,North East
+10,DE,Delaware,Mid-Atlantic
+11,DC,District of Columbia,Mid-Atlantic
+12,FL,Florida,South East
+13,GA,Georgia,South East
+15,HI,Hawaii,Far West
+16,ID,Idaho,Rockies
+17,IL,Illinois,Great Lakes
+18,IN,Indiana,Great Lakes
+19,IA,Iowa,Plains
+20,KS,Kansas,Plains
+21,KY,Kentucky,South East
+22,LA,Louisiana,South East
+23,ME,Maine,North East
+24,MD,Maryland,Mid-Atlantic
+25,MA,Massachusetts,North East
+26,MI,Michigan,Great Lakes
+27,MN,Minnesota,Great Lakes
+28,MS,Mississippi,South East
+29,MO,Missouri,Plains
+30,MT,Montana,Rockies
+31,NE,Nebraska,Plains
+32,NV,Nevada,Far West
+33,NH,New Hampshire,North East
+34,NJ,New Jersey,North East
+35,NM,New Mexico,South West
+36,NY,New York,North East
+37,NC,North Carolina,South East
+38,ND,North Dakota,Plains
+39,OH,Ohio,Great Lakes
+40,OK,Oklahoma,South West
+41,OR,Oregon,Far West
+42,PA,Pennsylvania,Mid-Atlantic
+44,RI,Rhode Island,North East
+45,SC,South Carolina,South East
+46,SD,South Dakota,Plains
+47,TN,Tennessee,South East
+48,TX,Texas,South West
+49,UT,Utah,Rockies
+50,VT,Vermont,North East
+51,VA,Virginia,Mid-Atlantic
+53,WA,Washington,Far West
+54,WV,West Virginia,Mid-Atlantic
+55,WI,Wisconsin,Great Lakes
+56,WY,Wyoming,Rockies
