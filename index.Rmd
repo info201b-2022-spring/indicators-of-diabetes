@@ -1,0 +1,11 @@
+---
+title: "index.Rmd"
+author: "Daniella Tsing, Brandon Nguyen, Eugene Kim, Roberto Raftery"
+date: '2022-05-12'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
