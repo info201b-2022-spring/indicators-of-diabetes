@@ -1,6 +1,3 @@
-Cost of Cancer Care by Phase of Care,,,,,,,,,
-Costs ($) per year in millions of 2010 dollars,,,,,,,,,
-See http://costprojections.cancer.gov,,,,,,,,,
 Cancer Site,Year,Sex,Age,Incidence and Survival Assumptions,Annual Cost Increase (applied to initial and last phases),Total Costs,Initial Year After Diagnosis Cost,Continuing Phase Cost,Last Year of Life Cost
 AllSites,2010,Both sexes,All ages,"Incidence, Survival at constant rate",0%,124565.6,40463.5,46642.8,37459.2
 AllSites,2010,Both sexes,All ages,"Incidence follows recent trend, Survival constant",0%,122420.8,38552.7,46671.9,37196.3
