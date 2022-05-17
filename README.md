@@ -6,7 +6,7 @@ In this section, you'll identify a domain that you are interested in (e.g., musi
 
 Why are you interested in this field/domain?
 
-- We are interested in the field of healthcare as most of us are going into a career related to or in healthcare and want to learn more about the statistics and data that surrounds a prevalent topic in healthcare, which is cancer.
+- We are interested in the field of healthcare as most of us are going into a career related to or in healthcare and want to learn more about the statistics and data that surrounds a prevalent topic in healthcare, which can span among many topics due to all of the illnesses known to date.
 
 What other examples of data driven project have you found related to this domain (share at least 3)?
 
@@ -20,6 +20,8 @@ What data-driven questions do you hope to answer about this domain (share at lea
     1. What location is involved with the most cancer deaths?
     2. What form of cancer has caused the most deaths?
     3. What is the difference in the mean and median year for cancer deaths in a given location?
+    4. What are trends seen between diabetes and factors, such as age, high blood pressure, sex,
+    income, heart disease, etc.?
 
 ## Finding Data
 We are lucky enough to live in a time when there is lots of publicly available data made possible by governments, journalists, academics, and companies. In this section, you will **identify and download** at least 3 sources of data related to your domain of interest described above (into a folder you create called data/). You won't be required to use all of these sources, but it will give you practice discovering data. If your data is made available through a Web API, you don't need to download it. For each source of data, provide the following information:
@@ -33,6 +35,7 @@ How was the data collected or generated? Make sure to explain who collected the 
  1. For the [Costs for Cancer Treatment](https://www.kaggle.com/datasets/rishidamarla/costs-for-cancer-treatment) data set, the data was collected by the National Cancer Institute (NCI). The data is about cancer patients and how much they spend on cancer treatment in total, during their initial year, and during their last year of life. The data also shows the annual cost increase of treatment. It is not known how the data was collected.
  2. For the [Cancer Death Rates in the World 1990-2019](https://www.kaggle.com/datasets/bahadirumutiscimen/cancer-death-rates-in-the-world-19902019) data set, the data is computed and organized based on estimates from the IHME's Global Burden of Disease Programme. The data is concerned with the deaths due to cancer and considers type, age, and death rates to assess incidence and survival rates.
  3. For the [Cancer Deaths in US States & Counties](https://www.kaggle.com/datasets/rishidamarla/cancer-deaths-in-us-states-counties) data set, the data was collected by Dartmouth Atlas and it is about the number of people who die from cancer, get admitted to the hospital due to cancer, spend time in the hospital due to their cancer, get admitted to a hospice, and receiving life-sustaining treatment. The data was collected from hospitals by the Dartmouth Institute for the Dartmouth Atlas Project. 
+ 4. For the [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download) data set,
 
 How many observations (rows) are in your data?
 
