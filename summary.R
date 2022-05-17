@@ -1,20 +1,18 @@
 # Summary ---------------------------------------------------------------
 # Store summary information into a list.
 # Compute at least 5 different values from your data that you believe are pertinent to share.
-cost_df <- read.csv("/Users/daniella/desktop/INFO 201/final-projects-daniellatsing/data/DowloadableDataFull_2011.01.12_reformatted.csv")
+diabetes_df <- read.csv("/Users/daniella/desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
-# What type of cancer treatment is the most costly? What year was this?
+# What is the average BMI of those without diabetes? What about prediabetes? 
+# What about those with diabetes?
 
-# What type of cancer treatment is the least costly? What year was this?
+# Is there a correlation between diabetes and income?
 
-# What is the average total cost of cancer treatment?
+# What age has the highest count of diabetes? What about the lowest?
 
-# What was the difference in costs between the initial year after diagnosis and
-# last year of life?
+# What gender has the lowest count of diabetes? What about the highest?
 
-# Which type of cancer treatment had the highest average total cost?
-
-# What is the average annual cost increase in cancer treatment?
+# What is the likelihood of someone to have CHD/MI while also having diabetes?
 
 # Reflection ------------------------------------------------------------
 # Write a paragraph of reflection on the summary information calculated by your
