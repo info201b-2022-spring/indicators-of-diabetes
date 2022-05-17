@@ -42,15 +42,18 @@ How many observations (rows) are in your data?
  1. There are 1258 rows for the [Costs for Cancer Treatment](https://www.kaggle.com/datasets/rishidamarla/costs-for-cancer-treatment) data set.
  2. There are 8011 rows for the [Cancer Death Rates in the World 1990-2019](https://www.kaggle.com/datasets/bahadirumutiscimen/cancer-death-rates-in-the-world-19902019) data set.
  3. There are 308 rows for the [Cancer Deaths in US States & Counties](https://www.kaggle.com/datasets/rishidamarla/cancer-deaths-in-us-states-counties) data set.
+ 4. There are 253680 rows for the [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download) data set.
 
 How many features (columns) are in the data?
 
  1. There are 9 columns for the [Costs for Cancer Treatment](https://www.kaggle.com/datasets/rishidamarla/costs-for-cancer-treatment) data set.
  2. There are 32 columns for the [Cancer Death Rates in the World 1990-2019](https://www.kaggle.com/datasets/bahadirumutiscimen/cancer-death-rates-in-the-world-19902019) data set.
  3. There are 34 columns for the [Cancer Deaths in US States & Counties](https://www.kaggle.com/datasets/rishidamarla/cancer-deaths-in-us-states-counties) data set.
+4. There are 22 columns for the [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download) data set.
 
 What questions (from above) can be answered using the data in this dataset?
 
 1. [Costs for Cancer Treatment](https://www.kaggle.com/datasets/rishidamarla/costs-for-cancer-treatment) does not answer any of the questions from above, but it does answer questions such as: what type of cancer is the most expensive to treat? what type of cancer is more common in males/females? what type of cancer results in the highest expenditure during a patient's last year of life?
 2. [Cancer Death Rates in the World 1990-2019](https://www.kaggle.com/datasets/bahadirumutiscimen/cancer-death-rates-in-the-world-19902019) is able to answer all of the questions from above.
 3. [Cancer Deaths in US States & Counties](https://www.kaggle.com/datasets/rishidamarla/cancer-deaths-in-us-states-counties) is able to answer all of the questions from above.
+4. [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset?resource=download)
