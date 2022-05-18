@@ -28,10 +28,54 @@ avg_diabetes <- mean_BMI %>%
 # Is there a correlation between diabetes and income?
 
 # What age has the highest count of diabetes? What about the lowest?
+highest_diabetes_age <- diabetes_df %>% 
+  filter(Diabetes_012 == 2) %>% 
+  group_by(Age) %>% 
+  count(diabetes_type = Diabetes_012) %>% 
+  summarise(highest_age = max(n, na.rm = TRUE)) %>% 
+  filter(Age == 10)
+
+lowest_diabetes_age <- diabetes_df %>% 
+  filter(Diabetes_012 == 2) %>% 
+  group_by(Age) %>% 
+  count(diabetes_type = Diabetes_012) %>% 
+  summarise(lowest_age = min(n, na.rm = TRUE)) %>% 
+  filter(Age == 1)
+
+# The age with the highest cases of diabetes is 10.
+# The age with the lowest cases of diabetes is 1.
 
 # What gender has the lowest count of diabetes? What about the highest?
+highest_diabetes_sex <- diabetes_df %>% 
+  filter(Diabetes_012 == 2) %>% 
+  group_by(Sex) %>% 
+  count(diabetes_type = Diabetes_012) %>% 
+  summarise(highest_sex = max(n, na.rm = TRUE)) %>% 
+  filter(Sex == 0)
+
+lowest_diabetes_sex <- diabetes_df %>% 
+  filter(Diabetes_012 == 2) %>% 
+  group_by(Sex) %>% 
+  count(diabetes_type = Diabetes_012) %>% 
+  summarise(lowest_sex = min(n, na.rm = TRUE)) %>% 
+  filter(Sex == 1)
+
+# The male gender has the lowest count of diabetes.
+# The female gender has the highest count of diabetes.
 
 # What is the likelihood of someone to have CHD/MI while also having diabetes?
+heart_disease <- diabetes_df %>% 
+  filter(Diabetes_012 == 2) %>% 
+  group_by(HeartDiseaseorAttack) %>% 
+  count(diabetes = Diabetes_012)
+
+heart_disease_zero <- heart_disease %>% filter(HeartDiseaseorAttack == 0) %>% pull(n)
+heart_disease_one <- heart_disease %>% filter(HeartDiseaseorAttack == 1) %>% pull(n)
+
+likelihood <- heart_disease %>% 
+  mutate(ratio = heart_disease_one / heart_disease_zero) * 100
+
+# Someone with diabetes has a likelihood of 28.68% chance of having heart disease.
 
 # Reflection ------------------------------------------------------------
 # Write a paragraph of reflection on the summary information calculated by your
