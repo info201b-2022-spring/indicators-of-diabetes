@@ -4,8 +4,7 @@ author: "Daniella Tsing, Brandon Nguyen, Eugene Kim, Roberto Raftery"
 date: '2022-05-12'
 output: html_document
 ---
+# Introduction ----------------------------------------------------------
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
+# Summary ---------------------------------------------------------------
