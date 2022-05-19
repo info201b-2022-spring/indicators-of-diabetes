@@ -4,7 +4,19 @@ author: "Daniella Tsing, Brandon Nguyen, Eugene Kim, Roberto Raftery"
 date: '2022-05-12'
 output: html_document
 ---
-# Introduction ----------------------------------------------------------
+### **Introduction**
 
+### **Summary**
+```{r include = FALSE}
+source("summary.R", local = knitr::knit_global())
+```
+`r diabetes_summary`
 
-# Summary ---------------------------------------------------------------
+The summary function calculates several values on the diabetes dataset, such as the highs and averages within the data. The first value of summary (`r diabetes_summary$avg_bmi_diabetes`) includes the average BMI of those who are diabetic, which allows us to look at how diabetes impacts a patient's BMI. The second (`r diabetes_summary$low_income_trend`) and third values (`r diabetes_summary$high_income_trend`) of summary includes the ratio of those in low income and high income who have diabetes, allowing us to see the trend of if having diabetes is correlated to income, in which it is. The fourth value of summary (`r diabetes_summary$age_trend`) consists of the age with the highest counts of diabetic cases, examining what age is most likely to have diabetes based on the highest amount of cases. The last value of summary (`r diabetes_summary$heart_disease_with_diabetes`) displays the likelihood for someone with diabetes to have heart disease, which is quantified from filtering diabetes cases, and analyzing the cases where patients do have both diabetes and heart disease, or simply diabetes.
+
+### **Aggregated Table**
+Why did you add the table? What does it reveal?
+
+### **Charts**
+Describe the purpose of including the chart. Describe any notable observations and 
+insights from the chart.

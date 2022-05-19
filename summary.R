@@ -1,12 +1,8 @@
+
 # Summary ---------------------------------------------------------------
-# Store summary information into a list.
-diabetes_summary <- list()
-diabetes_summary$avg_bmi_diabetes <- avg_diabetes
-diabetes_summary$low_income_trend <- lowest_income
-diabetes_summary$highest_income_trend <- highest_income
-diabetes_summary$age_trend <- highest_diabetes_age
-diabetes_summary$heart_disease_with_diabetes <- likelihood
-  
+# Load libraries
+library("dplyr")
+
 # Compute at least 5 different values from your data that you believe are pertinent to share.
 diabetes_df <- read.csv("/Users/daniella/desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
@@ -122,6 +118,14 @@ likelihood <- heart_disease %>%
   pull(ratio)
 
 # Someone with diabetes has a likelihood of 0.2868 chance of having heart disease.
+
+# Store summary information into a list.
+diabetes_summary <- list()
+diabetes_summary$avg_bmi_diabetes <- avg_diabetes
+diabetes_summary$low_income_trend <- lowest_income
+diabetes_summary$highest_income_trend <- highest_income
+diabetes_summary$age_trend <- highest_diabetes_age
+diabetes_summary$heart_disease_with_diabetes <- likelihood
 
 # Reflection ------------------------------------------------------------
 # Write a paragraph of reflection on the summary information calculated by your
