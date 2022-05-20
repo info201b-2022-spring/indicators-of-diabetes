@@ -5,6 +5,7 @@ date: '2022-05-12'
 output: html_document
 ---
 ### **Introduction**
+The data set contains information about the indicators of diabetes for 253,680 survey respondents. Indicators include factors such as cholesterol levels, BMI, and income. The data was collected by the Centers for Disease Control and Prevention (CDC) via a telephone survey called the Behavioral Risk Factor Surveillance System (BRFSS) in 2015. The data set contains 22 columns and 253,680 rows. From this dataset, we are able to determine factors that influence an individual's likelihood of becoming diagnosed with diabetes. These factors include social and behavioral factors along with health factors, so we will also be able to analyze the intersection between an individual's social environment and an individual's physical well-being. The social factors provided in this dataset include age, income, and sex. From these categories, we may discern whether men or women are more likely to become diabetics, how income factors into healthcare, and what age group has the highest number of diabetics. By analyzing social factors, we can ask further questions to explore the cause and effect relationships created by these factors. Moreover, the dataset contains information about an individual's behavioral, such as smoking and eating habits, and how it predisposes them to diabetes. Along with health factors such as cholesterol levels, these social and behavioral patterns will give us a more well-rounded understanding of the contributors to diabetes.
 
 ### **Summary**
 ```{r include = FALSE}
