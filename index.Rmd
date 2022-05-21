@@ -21,3 +21,14 @@ Why did you add the table? What does it reveal?
 ### **Charts**
 Describe the purpose of including the chart. Describe any notable observations and 
 insights from the chart.
+```{r include = FALSE}
+source("chart1.R", local = knitr::knit_global())
+``` 
+
+```{r echo = FALSE}
+ggplot(table_income, aes(fill=Income, y=Freq, x=Diabetes_012)) + 
+  geom_bar(position="fill", stat="identity") +
+  ggtitle("Income amongst Diabetes cases", 
+          subtitle = 
+            "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
+```
