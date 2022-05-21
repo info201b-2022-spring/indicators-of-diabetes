@@ -24,11 +24,36 @@ insights from the chart.
 ```{r include = FALSE}
 source("chart1.R", local = knitr::knit_global())
 ``` 
+```{r include = FALSE}
+source("chart2.R", local = knitr::knit_global())
+``` 
+```{r include = FALSE}
+source("chart3.R", local = knitr::knit_global())
+``` 
 
 ```{r echo = FALSE}
 ggplot(table_income, aes(fill=Income, y=Freq, x=Diabetes_012)) + 
   geom_bar(position="fill", stat="identity") +
-  ggtitle("Income amongst Diabetes cases", 
+  ggtitle("Income Amongst Diabetes cases", 
           subtitle = 
             "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
 ```
+
+
+```{r echo = FALSE}
+ggplot(diabetes_only, aes(x = Diabetes_012)) + 
+  geom_bar() +
+  ggtitle("Quantities of Responses to Diabetes Survey", 
+          subtitle = 
+            "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
+```
+
+
+```{r echo = FALSE}
+ggplot(bmi_avg, aes(x = Diabetes_012, y = "Average BMI")) + 
+  geom_bar(stat = "identity") +
+  ggtitle("Average BMI Amongst Diabetes Cases", 
+          subtitle = 
+            "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
+```
+
