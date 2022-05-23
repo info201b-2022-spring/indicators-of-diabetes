@@ -6,7 +6,7 @@ data <- read.csv("data/diabetes_012_health_indicators_BRFSS2015.csv", header = T
 diabetes_age <- data %>% 
   select(Diabetes_012, Age)
 
-ggplot(diabetes_age, aes(x = factor(Diabetes_012), y = Age, fill = factor(Diabetes_012))) +
+plot2 <- ggplot(diabetes_age, aes(x = factor(Diabetes_012), y = Age, fill = factor(Diabetes_012))) +
   geom_boxplot(alpha = 0.5) +
   scale_fill_brewer(name = "Diabetes Classification", palette = "Paired") +
   ggtitle("Age Range Distribution Across Diabetes Cases", 
@@ -23,4 +23,4 @@ ggplot(diabetes_age, aes(x = factor(Diabetes_012), y = Age, fill = factor(Diabet
         #  subtitle = 
            # "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
 
-# print(plot2)
+print(plot2)
