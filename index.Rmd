@@ -55,4 +55,4 @@ print(plot3)
 plot3
 ```
 
-We included this chart in order to see how BMI differs between people who don't have diabetes and people who have type 1 or type 2 diabetes. Using this graph, we found that the highest average BMI is in the type 2 diabetes group, with the second highest being type 1, and the lowest being the group with no diabetes. The high BMI for type 2 diabetes indicates that this type is related to overeating, which corresponds with medical research showing that it is caused by high sugar levels.
+We included this chart in order to see how BMI differs between people who don't have diabetes, people who are pre-diabetes, and have diabetes. Using this graph, we found that the highest average BMI is in the diabetes group, with the second highest being pre-diabetes, and the lowest being the group with no diabetes. The high BMI for diabetes indicates that this type can be related to overeating, which corresponds with medical research showing that it is caused by high sugar levels.
