@@ -16,11 +16,17 @@ source("summary.R", local = knitr::knit_global())
 The summary function calculates several values on the diabetes dataset, such as the highs and averages within the data. The first value of summary (`r diabetes_summary$avg_bmi_diabetes`) includes the average BMI of those who are diabetic, which allows us to look at how diabetes impacts a patient's BMI. The second (`r diabetes_summary$low_income_trend`) and third values (`r diabetes_summary$high_income_trend`) of summary includes the ratio of those in low income and high income who have diabetes, allowing us to see the trend of if having diabetes is correlated to income, in which it is. The fourth value of summary (`r diabetes_summary$age_trend`) consists of the age with the highest counts of diabetic cases, examining what age is most likely to have diabetes based on the highest amount of cases. The last value of summary (`r diabetes_summary$heart_disease_with_diabetes`) displays the likelihood for someone with diabetes to have heart disease, which is quantified from filtering diabetes cases, and analyzing the cases where patients do have both diabetes and heart disease, or simply diabetes.
 
 ### **Aggregated Table**
-Why did you add the table? What does it reveal?
+```{r include = FALSE}
+source("table_summary.R", local = knitr::knit_global())
+``` 
+
+```{r echo = FALSE}
+summary_table <- group_by(diabetes_df, Diabetes_012) %>%
+  summarise(meanAge = mean(Age), meanBMI = mean(BMI), meanIncome = mean(Income))
+```
+The addition of this table allows us to view a possible correlation between the mean variables of age, BMI, and income and diabetes. Through this table, we can see that the average age for people with diabetes lies within the age-group of 9, which signifies the age range of 60-64 in the 13 level age category. Another trend is seeing how people without diabetes tend to have a lower average BMI compared to those that are pre-diabetes and those who have diabetes. Alternatively, the income variable, shows that people without diabetes also tend to have a a higher income compared to those with diabetes and pre-diabetes, which might be attributed to a lack of better healthcare, diets, etc.
 
 ### **Charts**
-Describe the purpose of including the chart. Describe any notable observations and 
-insights from the chart.
 ```{r include = FALSE}
 source("chart1.R", local = knitr::knit_global())
 ``` 
@@ -38,22 +44,34 @@ ggplot(table_income, aes(fill=Income, y=Freq, x=Diabetes_012)) +
           subtitle = 
             "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
 ```
-
+The purpose of this chart allows us to see a comparison of the different levels of income, and how they relate to diabetes. With 1 being the lowest and 8 being the highest, we can notice some trends between people without diabetes (0), pre-diabetes (1), and people with diabetes(2). As we go from 0 to 2 on the x-axis, we can see how the income ranges shift upward in frequency. This is indicative of a trend that displays how incomes correlates with diabetes. We can also see it as an inversely proportional relationship as we can see that people without diabetes tend to have more in higher income
 
 ```{r echo = FALSE}
-ggplot(diabetes_only, aes(x = Diabetes_012)) + 
-  geom_bar() +
-  ggtitle("Quantities of Responses to Diabetes Survey", 
-          subtitle = 
-            "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
+ggplot(diabetes_age, aes(x = factor(Diabetes_012), y = Age, fill = factor(Diabetes_012))) +
+  geom_boxplot(alpha = 0.5) +
+  scale_fill_brewer(name = "Diabetes", palette = "Paired") +
+  ggtitle("Age Range Distribution Across Diabetes Cases", 
+          subtitle = "Diabetes Classification") +
+  xlab("Without Diabetes, Pre-Diabetes, With Diabetes") +
+  ylab("Age Range")
 ```
 
+This chart examines the age distribution among the diabetes classification. Age ranges are given values ranging from 1 to 13. Age-group 1 includes ages 18-24, and past this group, the age ranges increase in increments of 4 with age-group 13 including ages 80 or older (An easy way to calculate this can be to understand that age ranges are in increments of 4, so the starting age of any given age range can be found by 15 + 5*age_group, eg. age_group 5 is the age range between 15 + 5x5 = 40 which is the starting age, and the range ranges by 4 years so the resulting age range is 40-44). We can identify trends in the age ranges in the max, min, and interquartile ranges of the box plot. Among all classifications of diabetes, the youngest age is in age-group 1 and the highest age is in age-group 13. However, we can see a shift in age range of the interquartile range with each classification as the range shifts upwards.
 
 ```{r echo = FALSE}
-ggplot(bmi_avg, aes(x = Diabetes_012, y = "Average BMI")) + 
+library(ggplot2)
+library(dplyr)
+grouped <- data %>% group_by(Diabetes_012)
+
+bmi_only <- grouped[c("Diabetes_012", "BMI")]
+bmi_avg <- bmi_only %>%
+  summarise_at(vars(BMI), list(avg = mean))
+
+ggplot(bmi_avg, aes(x = Diabetes_012, y = avg)) + 
   geom_bar(stat = "identity") +
   ggtitle("Average BMI Amongst Diabetes Cases", 
           subtitle = 
             "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
 ```
 
+We included this chart in order to see how BMI differs between people who don't have diabetes and people who have type 1 or type 2 diabetes. Using this graph, we found that the highest average BMI is in the type 2 diabetes group, with the second highest being type 1, and the lowest being the group with no diabetes. The high BMI for type 2 diabetes indicates that this type is related to overeating, which corresponds with medical research showing that it is caused by high sugar levels.
