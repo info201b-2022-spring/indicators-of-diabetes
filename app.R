@@ -58,12 +58,16 @@ no_diabetes_df <- na.omit(healthIndicators_df) %>%
 pre_diabetes_df <- na.omit(healthIndicators_df) %>%
   filter(Diabetes_012 == 1) %>%
   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
- 
+
+grouped_income_df <- na.omit(healthIndicators_df) %>%
+  group_by(Diabetes_012) %>%
+  summarise(Mean.Income = mean(Income))
 
 # Page 1---------------------------------------------------------------
-plot1 <- ggplot(data = diabetes_income_df) +
-  geom_smooth(mapping = aes(x = Income, y = white_jail_pop, color = 'white Jail Pop')) +
-  
+plot1 <- ggplot(diabetes_df, aes(x = name, y = value, fill)) +
+  geom_bar(stat = "identity", fill = "skyblue2") +
+  labs(title = "Median Household Income on 1-8 Scale", x = element_blank(), y = "1-8 Scale")
+plot(plot1)
   
 # Page 2---------------------------------------------------------------
 plot2 <-
