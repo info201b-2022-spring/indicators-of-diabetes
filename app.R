@@ -42,6 +42,10 @@ intro_tab <- tabPanel(
   )
 )
 
+# load in data
+setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data")
+diabetes_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+
 # Page 1---------------------------------------------------------------
 plot1 <-
   
