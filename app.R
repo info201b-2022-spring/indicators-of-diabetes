@@ -44,10 +44,26 @@ intro_tab <- tabPanel(
 
 # load in data
 setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data")
-diabetes_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+
+# cleaned dataframes
+diabetes_df <- na.omit(healthIndicators_df) %>%
+  filter(Diabetes_012 == 2) %>%
+  select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
+
+no_diabetes_df <- na.omit(healthIndicators_df) %>%
+  filter(Diabetes_012 == 0) %>%
+  select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
+
+pre_diabetes_df <- na.omit(healthIndicators_df) %>%
+  filter(Diabetes_012 == 1) %>%
+  select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
+ 
 
 # Page 1---------------------------------------------------------------
-plot1 <-
+plot1 <- ggplot(data = diabetes_income_df) +
+  geom_smooth(mapping = aes(x = Income, y = white_jail_pop, color = 'white Jail Pop')) +
+  
   
 # Page 2---------------------------------------------------------------
 plot2 <-
