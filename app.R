@@ -64,24 +64,46 @@ grouped_income_df <- na.omit(healthIndicators_df) %>%
   summarise(Mean.Income = mean(Income))
 
 # Page 1---------------------------------------------------------------
-plot1 <- ggplot(diabetes_df, aes(x = name, y = value, fill)) +
-  geom_bar(stat = "identity", fill = "skyblue2") +
-  labs(title = "Median Household Income on 1-8 Scale", x = element_blank(), y = "1-8 Scale")
-plot(plot1)
+# plot1 <- ggplot(diabetes_df, aes(x = name, y = value, fill)) +
+#   geom_bar(stat = "identity", fill = "skyblue2") +
+#   labs(title = "Median Household Income on 1-8 Scale", x = element_blank(), y = "1-8 Scale")
+# plot(plot1)
+
+bar_chart_tab <- tabPanel(
+  "Bar Chart Comparison",
+  titlePanel("Comparing Different Factors"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      
+      # Select factor to analyze on bar graph
+      selectInput(inputId = "type", label = strong("Health Indicator"),
+                  choices = colnames(diabetes_df))
+    )
+  )
+  )
+
+mainPanel(
+  plotOutput(outputId = "lineplot", height = "300px"),
+  textOutput(outputId = "desc")
+)
   
 # Page 2---------------------------------------------------------------
-plot2 <-
+# plot2 <-
   
 # Page 3---------------------------------------------------------------
-plot3 <-
+# plot3 <-
   
 # Conclusion ----------------------------------------------------------
-conclusion <- 
+# conclusion <- 
 
 # Define UI
 ui <- navbarPage(
   "Diabetes Risk",
-  intro_tab
+  intro_tab,
+  
+  "Bar Chart",
+  bar_chart_tab
 )
 
 # Define server logic
