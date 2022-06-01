@@ -13,7 +13,8 @@ intro_tab <- tabPanel(
     img("diabetes-awareness-month.jpeg", 
         src = "/Users/daniella/Downloads/diabetes-awareness-month.jpeg"),
     br(), br(),
-    HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
+    a("Dataset Source", href = "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset"),
+    #HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
     p("The data set contains information about the indicators of diabetes for 253,680 survey 
     respondents. Indicators include factors such as cholesterol levels, BMI, and income. The 
     data was collected by the Centers for Disease Control and Prevention (CDC) via a telephone 
@@ -59,9 +60,11 @@ pre_diabetes_df <- na.omit(healthIndicators_df) %>%
   filter(Diabetes_012 == 1) %>%
   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
 
-grouped_income_df <- na.omit(healthIndicators_df) %>%
-  group_by(Diabetes_012) %>%
-  summarise(Mean.Income = mean(Income))
+# grouped_income_df <- na.omit(healthIndicators_df) %>%
+#   group_by(Diabetes_012) %>%
+#   summarise(Median.Household.Income = )
+#   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
+  #summarise(Mean.Income = mean(Income))
 
 # Page 1---------------------------------------------------------------
 # plot1 <- ggplot(diabetes_df, aes(x = name, y = value, fill)) +
@@ -75,18 +78,17 @@ bar_chart_tab <- tabPanel(
   
   sidebarLayout(
     sidebarPanel(
-      
       # Select factor to analyze on bar graph
-      selectInput(inputId = "type", label = strong("Health Indicator"),
+      selectInput(inputId = "select", label = strong("Select Health Indicator"),
                   choices = colnames(diabetes_df))
+    ),
+    mainPanel(
+      h3("Chart")
     )
   )
-  )
-
-mainPanel(
-  plotOutput(outputId = "lineplot", height = "300px"),
-  textOutput(outputId = "desc")
 )
+
+
   
 # Page 2---------------------------------------------------------------
 # plot2 <-
@@ -99,15 +101,15 @@ mainPanel(
 
 # Define UI
 ui <- navbarPage(
-  "Diabetes Risk",
-  intro_tab,
+  "Diabetes Risk",      # application title 
+  intro_tab,            # intro page
   
-  "Bar Chart",
-  bar_chart_tab
+  bar_chart_tab         # bar chart page
 )
 
 # Define server logic
 server <- function(input, output){
+  
   
 }
 
