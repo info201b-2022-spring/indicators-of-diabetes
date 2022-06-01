@@ -88,14 +88,46 @@ bar_chart_tab <- tabPanel(
   )
 )
 
-
-  
 # Page 2---------------------------------------------------------------
 # plot2 <-
+
+scatter_plot_tab <- tabPanel(
+  "Scatter Plots",
+  titlePanel("Income vs. BMI"),
+  
+  sidebarLayout(
+    sidebarPanel(
+      sliderInput(inputId = "income", label = "Median Household Income on Scale of 1-8",
+                  min = 1, max = 8, value = 8),
+      selectInput(inputId = "select_x", label = strong("X-Axis Variable"),
+                  choices = "BMI", "Income"),
+      selectInput(inputId = "select_y", label = strong("Y-Axis Variable"),
+                  choices = "BMI", "Income")
+    ),
+    mainPanel(
+      h3("Chart")
+    )
+  )
+)
   
 # Page 3---------------------------------------------------------------
 # plot3 <-
+
+box_plot_tab <- tabPanel(
+  "Box Plots",
+  titlePanel("Income vs. BMI"),
   
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(inputId = "select", label = strong("Select Health Indicator"),
+                  choices = colnames(diabetes_df))
+    ),
+    mainPanel(
+      h3("Chart")
+    )
+  )
+)
+
 # Conclusion ----------------------------------------------------------
 # conclusion <- 
 
@@ -103,8 +135,9 @@ bar_chart_tab <- tabPanel(
 ui <- navbarPage(
   "Diabetes Risk",      # application title 
   intro_tab,            # intro page
-  
-  bar_chart_tab         # bar chart page
+  bar_chart_tab,        # bar chart page
+  scatter_plot_tab,     # scatter plot page 
+  box_plot_tab          # box plot page 
 )
 
 # Define server logic
