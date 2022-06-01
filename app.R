@@ -100,9 +100,9 @@ scatter_plot_tab <- tabPanel(
       sliderInput(inputId = "income", label = "Median Household Income on Scale of 1-8",
                   min = 1, max = 8, value = 8),
       selectInput(inputId = "select_x", label = strong("X-Axis Variable"),
-                  choices = "BMI", "Income"),
+                  choices = c("BMI", "Income")),
       selectInput(inputId = "select_y", label = strong("Y-Axis Variable"),
-                  choices = "BMI", "Income")
+                  choices = c("BMI", "Income"))
     ),
     mainPanel(
       h3("Chart")
