@@ -3,6 +3,8 @@ library(dplyr)
 library(ggplot2)
 library(plotly)
 library(bslib)
+library(stringr)
+library(plyr)
 
 # Introduction---------------------------------------------------------
 intro_tab <- tabPanel(
@@ -43,6 +45,8 @@ intro_tab <- tabPanel(
   )
 )
 
+# Data Cleaning--------------------------------------------------------
+
 # load in data
 setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data")
 healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
@@ -60,18 +64,24 @@ pre_diabetes_df <- na.omit(healthIndicators_df) %>%
   filter(Diabetes_012 == 1) %>%
   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
 
-# grouped_income_df <- na.omit(healthIndicators_df) %>%
-#   group_by(Diabetes_012) %>%
-#   summarise(Median.Household.Income = )
-#   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
-  #summarise(Mean.Income = mean(Income))
+# income data
+diabetes_income_df <- count(diabetes_df, 'Income')
+no_diabetes_income_df <- count(no_diabetes_df, 'Income')
+pre_diabetes_income_df <- count(pre_diabetes_df, 'Income')
+unit <- c("1", "2", "3", "4", "5", "6", "7", "8")
+income_df <- data.frame(no_diabetes_income_df, pre_diabetes_income_df, diabetes_income_df)
+require(tidyr)
+long_income_df <- gather(income_df, variable, value)
 
 # Page 1---------------------------------------------------------------
-# plot1 <- ggplot(diabetes_df, aes(x = name, y = value, fill)) +
-#   geom_bar(stat = "identity", fill = "skyblue2") +
-#   labs(title = "Median Household Income on 1-8 Scale", x = element_blank(), y = "1-8 Scale")
-# plot(plot1)
 
+# create the bar plots
+plot1 <- ggplot(data = long_income_df, aes(x = unit, y = value, fill = variable)) +
+  geom_col(position = position_dodge())  +
+  labs(title = "Median Household Income on Scale of 1-8", x = "Frequency", y = "Scale")
+plot(plot1)
+
+# create the tab
 bar_chart_tab <- tabPanel(
   "Bar Chart Comparison",
   titlePanel("Comparing Different Factors"),
@@ -83,7 +93,8 @@ bar_chart_tab <- tabPanel(
                   choices = colnames(diabetes_df))
     ),
     mainPanel(
-      h3("Chart")
+      h3("Chart"),
+      tableOutput(outputId = "bar_chart")
     )
   )
 )
@@ -142,7 +153,10 @@ ui <- navbarPage(
 
 # Define server logic
 server <- function(input, output){
-  
+  # Define bar chart to render in the UI
+  output$bar_chart <- renderTable({
+    
+  })
   
 }
 
