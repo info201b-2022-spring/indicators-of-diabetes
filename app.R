@@ -76,6 +76,24 @@ pre_diabetes_income_df$classification <- c("Pre-Diabetes", "Pre-Diabetes", "Pre-
 
 income_df <- bind_rows(no_diabetes_income_df, pre_diabetes_income_df, diabetes_income_df)
 
+# age data
+
+# sex data
+
+# bmi data
+
+# smoking habit data
+
+# bp data
+
+# cholesterol data
+
+# heart problems data
+
+# physical health data
+
+# mental health data
+
 # Page 1---------------------------------------------------------------
 
 # create the bar plots
