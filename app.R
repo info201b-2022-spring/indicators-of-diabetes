@@ -65,20 +65,23 @@ pre_diabetes_df <- na.omit(healthIndicators_df) %>%
   select(Income, Age, Sex, BMI, Smoker, HighBP, HighChol, HeartDiseaseorAttack, PhysHlth, MentHlth)
 
 # income data
-diabetes_income_df <- count(diabetes_df, 'Income')
+diabetes_income_df <- count(diabetes_df, 'Income')  
+diabetes_income_df$classification <- c("Diabetes", "Diabetes", "Diabetes", "Diabetes", "Diabetes", "Diabetes", "Diabetes", "Diabetes")
+
 no_diabetes_income_df <- count(no_diabetes_df, 'Income')
+no_diabetes_income_df$classification <- c("No Diabetes", "No Diabetes", "No Diabetes", "No Diabetes", "No Diabetes", "No Diabetes", "No Diabetes", "No Diabetes")
+
 pre_diabetes_income_df <- count(pre_diabetes_df, 'Income')
-unit <- c("1", "2", "3", "4", "5", "6", "7", "8")
-income_df <- data.frame(no_diabetes_income_df, pre_diabetes_income_df, diabetes_income_df)
-require(tidyr)
-long_income_df <- gather(income_df, variable, value)
+pre_diabetes_income_df$classification <- c("Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes", "Pre-Diabetes")
+
+income_df <- bind_rows(no_diabetes_income_df, pre_diabetes_income_df, diabetes_income_df)
 
 # Page 1---------------------------------------------------------------
 
 # create the bar plots
-plot1 <- ggplot(data = long_income_df, aes(x = unit, y = value, fill = variable)) +
+plot1 <- ggplot(data = income_df, aes(x = Income, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
-  labs(title = "Median Household Income on Scale of 1-8", x = "Frequency", y = "Scale")
+  labs(title = "Median Household Income on Scale of 1-8", x = "Scale", y = "Frequency")
 plot(plot1)
 
 # create the tab
