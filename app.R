@@ -190,6 +190,8 @@ pre_diabetes_heart_df$classification <- rep("Pre-Diabetes", 2)
 
 heart_df <- bind_rows(no_diabetes_heart_df, pre_diabetes_heart_df, diabetes_heart_df)
 
+merged_df <- merge(income_df, age_df, by = "classification")
+
 # Page 1---------------------------------------------------------------
 
 # create the bar plots
@@ -233,6 +235,8 @@ plot1h <- ggplot(data = heart_df, aes(x = HeartDiseaseorAttack, y = freq, fill =
   labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
 plot(plot1h)
 
+bar_plots_vector <- c(plot1, plot1b, plot1c, plot1d, plot1e, plot1f, plot1g, plot1h)
+
 # create the tab
 bar_chart_tab <- tabPanel(
   "Bar Chart Comparison",
@@ -241,11 +245,12 @@ bar_chart_tab <- tabPanel(
   sidebarLayout(
     sidebarPanel(
       # Select factor to analyze on bar graph
-      selectInput(inputId = "select", label = strong("Select health indicator"),
+      selectInput(inputId = "bar_chart", label = strong("Select health indicator"),
                   choices = colnames(diabetes_df), selected = "Income")
     ),
     mainPanel(
-      plotOutput(outputId = "income_bar_chart")
+      plotOutput(outputId = "income_bar_chart", click = "income_bar_click"),
+      tableOutput(outputId = "income_table")
     )
   )
 )
@@ -312,7 +317,14 @@ ui <- navbarPage(
 server <- function(input, output){
   # Define bar chart to render in the UI
   output$income_bar_chart <- renderPlot({
+    filtered_df <- select(merged_df, unique(input$bar_chart), freq, classification)
+    plot1 <- ggplot(data = filtered_df, aes(x = filtered_df[1], y = freq, fill = classification)) +
+      geom_col(position = position_dodge())  +
+      labs(title = "Median Household Income on Scale of 1-8", x = input$bar_chart, y = "Frequency")
     plot1
+  })
+  output$income_table <- renderTable({
+    nearPoints(income_df, input$income_bar_click, xvar = "Income", yvar = "freq")
   })
   
 }
