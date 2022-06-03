@@ -12,8 +12,7 @@ intro_tab <- tabPanel(
   fluidPage(
     h1("As diabetes is so prevalent, what risk factors are most indicative of diabetes risk?"),
     br(),
-    img("diabetes-awareness-month.jpeg", 
-        src = "/Users/daniella/Downloads/diabetes-awareness-month.jpeg"),
+    imageOutput("diabetes-awareness-month"),
     br(), br(),
     a("Dataset Source", href = "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset"),
     #HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
@@ -34,7 +33,7 @@ intro_tab <- tabPanel(
     how it predisposes them to diabetes. Along with health factors such as cholesterol levels, 
     these social and behavioral patterns will give us a more well-rounded understanding of the 
     contributors to diabetes. The following are questions that we want to explore:"),
-    br(), br(), br(),
+    br(),
     strong("1. What is the income distribution of people who do not have diabetes, are 
            pre-diabetic, or have diabetes and what are the possible reasons?"),
     br(), br(),
@@ -48,8 +47,9 @@ intro_tab <- tabPanel(
 # Data Cleaning--------------------------------------------------------
 
 # load in data
-setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data")
-healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+# setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data") # path for brandon
+# healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%
