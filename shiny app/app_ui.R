@@ -12,7 +12,7 @@ intro_tab <- tabPanel(
   fluidPage(
     h1("As diabetes is so prevalent, what risk factors are most indicative of diabetes risk?"),
     br(),
-    imageOutput("diabetes-awareness-month"),
+    imageOutput("diabetes_awareness_month"),
     br(), br(),
     a("Dataset Source", href = "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset"),
     #HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
@@ -256,29 +256,18 @@ bar_chart_tab <- tabPanel(
 )
 
 # Page 2---------------------------------------------------------------
-bmi_vs_income_df <- na.omit(healthIndicators_df) %>% 
-  select(Income, BMI)
-
-plot2 <- ggplot(data = bmi_vs_income_df, aes(x = Income, y = BMI)) +
-  geom_point() +
-  labs(title = "BMI vs. Income", x = "Income", y = "BMI")
-plot(plot2)
-
-scatter_plot_tab <- tabPanel(
-  "Scatter Plots",
-  titlePanel("Income vs. BMI"),
-  
+violin_plot_tab <- tabPanel(
+  "Violin Plot",
+  titlePanel("Diabetes Clasification vs. Income"),
   sidebarLayout(
     sidebarPanel(
-      sliderInput(inputId = "income", label = "Median Household Income on Scale of 1-8",
-                  min = 1, max = 8, value = 8),
-      selectInput(inputId = "select_x", label = strong("X-Axis Variable"),
-                  choices = c("BMI", "Income")),
-      selectInput(inputId = "select_y", label = strong("Y-Axis Variable"),
-                  choices = c("BMI", "Income"))
+      sliderInput(inputId = "age", 
+                  label = "Age groups from 1 - 13",
+                  min = 1, max = 13, value = c(10, 50))
     ),
     mainPanel(
-      h3("Chart")
+      h3("Chart"),
+      plotlyOutput(outputId = "violin")
     )
   )
 )
@@ -302,13 +291,14 @@ box_plot_tab <- tabPanel(
 )
 
 # Conclusion ----------------------------------------------------------
-# conclusion <- 
+# conclusion_tab <- 
 
 # Define UI
 ui <- navbarPage(
   "Diabetes Risk",      # application title 
   intro_tab,            # intro page
   bar_chart_tab,        # bar chart page
-  scatter_plot_tab,     # scatter plot page 
-  box_plot_tab          # box plot page 
+  violin_plot_tab,      # violin plot page 
+  box_plot_tab,         # box plot page 
+#  conclusion_tab        # conclusion page
 )
