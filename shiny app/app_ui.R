@@ -47,9 +47,9 @@ intro_tab <- tabPanel(
 # Data Cleaning--------------------------------------------------------
 
 # load in data
-healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
-# setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data") # path for brandon
-# healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+#healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data") # path for brandon
+healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%
