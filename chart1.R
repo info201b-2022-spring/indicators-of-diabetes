@@ -9,6 +9,8 @@ income_only <- grouped[c("Diabetes_012", "Income")]
 table_income <- as.data.frame(table(income_only))
 
 plot1 <- ggplot(table_income, aes(fill=Income, y=Freq, x=Diabetes_012)) + 
-  geom_bar(position="fill", stat="identity")
+  geom_bar(position="fill", stat="identity") +
+  ggtitle("Income Amongst Diabetes cases", subtitle = 
+            "0 indicates no diabetes. 1 indicates pre-diabetes. 2 indicates diabetes")
 
 print(plot1)
