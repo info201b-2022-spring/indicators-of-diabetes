@@ -18,14 +18,32 @@ server <- function(input, output){
   # Define bar chart to render in the UI
   output$income_bar_chart <- renderPlot({
     
-    if (input$bar_chart = "Income"){
+    if (input$bar_chart == "Income"){
       return(plot1)
     }
-    if (input$bar_chart = "Age"){
+    if (input$bar_chart == "Age"){
       return(plot1b)
     }
-    
+    if(input$bar_chart == "Sex"){
+      return(plot1c)
+    }
+    if(input$bar_chart == "BMI"){
+      return(plot1d)
+    }
+    if(input$bar_chart == "Smoker"){
+      return(plot1e)
+    }
+    if(input$bar_chart == "HighBP"){
+      return(plot1f)
+    }
+    if(input$bar_chart == "HighChol"){
+      return(plot1g)
+    }
+    if(input$bar_chart == "HeartDiseaseorAttack"){
+      return(plot1h)
+    }
   })
+  
   # output$income_table <- renderTable({
   #   nearPoints(income_df, input$income_bar_click, xvar = "Income", yvar = "freq")
   # })
