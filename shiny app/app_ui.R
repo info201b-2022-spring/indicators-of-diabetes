@@ -263,7 +263,7 @@ violin_plot_tab <- tabPanel(
     sidebarPanel(
       sliderInput(inputId = "age", 
                   label = "Age groups from 1 - 13",
-                  min = 1, max = 13, value = c(10, 50))
+                  min = 1, max = 13, value = c(1, 13))
     ),
     mainPanel(
       h3("Chart"),
