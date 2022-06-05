@@ -52,7 +52,10 @@ intro_tab <- tabPanel(
 #healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # path for brandon
-healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+#healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+
+#path for roberto
+healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%
@@ -261,12 +264,12 @@ bar_chart_tab <- tabPanel(
 # Page 2---------------------------------------------------------------
 violin_plot_tab <- tabPanel(
   "Violin Plot",
-  titlePanel("Diabetes Clasification vs. Income"),
+  titlePanel("Diabetes Clasification vs. BMI"),
   sidebarLayout(
     sidebarPanel(
       sliderInput(inputId = "age", 
-                  label = "Age groups from 1 - 13",
-                  min = 1, max = 13, value = c(1, 13))
+                  label = "BMI from 10 to 60",
+                  min = 10, max = 60, value = c(10, 60))#min = 1, max = 13, value = c(1, 13))
     ),
     mainPanel(
       h3("Chart"),
@@ -278,20 +281,82 @@ violin_plot_tab <- tabPanel(
 # Page 3---------------------------------------------------------------
 # plot3 <-
 
-box_plot_tab <- tabPanel(
-  "Box Plots",
-  titlePanel("Income vs. BMI"),
+plot3 <- ggplot(data = income_df, aes(fill=Income, y=freq, x=classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Median Household Income on Scale of 1-8", x = "Diabetes Classification", y = "Income Level")
+plot(plot1)
+
+plot3b <- ggplot(data = age_df, aes(fill = Age, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Age & Diabetes Classification", x = "Age (years)", y = "Frequency")
+plot(plot1b)
+
+plot3c <- ggplot(data = sex_df, aes(fill = Sex, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Sex & Diabetes Classification", x = "Sex", y = "Frequency")
+plot(plot1c)
+
+plot3d <- ggplot(data = bmi_df, aes(fill = BMI, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "BMI & Diabetes Classification", x = "BMI", y = "Frequency")
+plot(plot1d)
+
+plot3e <- ggplot(data = smoker_df, aes(fill = Smoker, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Smoking Habits", x = "Has Smoked At Least 100 Cigarettes in Lifetime", y = "Frequency")
+plot(plot1e)
+
+plot3f <- ggplot(data = bp_df, aes(xfill= HighBP, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "High Blood Pressure & Diabetes Classification", x = "Has High Blood Pressure", y = "Frequency")
+plot(plot1f)
+
+plot3g <- ggplot(data = chol_df, aes(fill = HighChol, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "High Cholesterol & Diabetes Classification", x = "Has High Cholesterol", y = "Frequency")
+plot(plot1g)
+
+plot3h <- ggplot(data = heart_df, aes(fill = HeartDiseaseorAttack, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
+plot(plot1h)
+
+stacked_bar_plots_vector <- c(plot3, plot3b, plot3c, plot3d, plot3e, plot3f, plot3g, plot3h)
+
+# create the tab
+stacked_bar_chart_tab <- tabPanel(
+  "Bar Chart Comparison",
+  titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
     sidebarPanel(
-      selectInput(inputId = "select", label = strong("Select Health Indicator"),
-                  choices = colnames(diabetes_df))
+      # Select factor to analyze on bar graph
+      selectInput(inputId = "stacked_bar_input", label = strong("Select health indicator"),
+                  choices = colnames(diabetes_df), selected = "Income")
     ),
     mainPanel(
-      h3("Chart")
+      plotOutput(outputId = "stacked_barplot", click = "stacked_bar_click"),
+      tableOutput(outputId = "stacked_table")
     )
   )
 )
+
+#box_plot_tab <- tabPanel(
+#  "Box Plots",
+#  titlePanel("Income vs. BMI"),
+#  
+#  sidebarLayout(
+#    sidebarPanel(
+#      selectInput(inputId = "select", label = strong("Select Health Indicator"),
+#                  choices = colnames(diabetes_df))
+#    ),
+#    mainPanel(
+#      h3("Chart")
+#    )
+#  )
+#)
+
+
 
 # Conclusion ----------------------------------------------------------
 # conclusion_tab <- 
@@ -302,6 +367,6 @@ ui <- navbarPage(
   intro_tab,            # intro page
   bar_chart_tab,        # bar chart page
   violin_plot_tab,      # violin plot page 
-  box_plot_tab,         # box plot page 
+  stacked_bar_chart_tab,         # box plot page 
 #  conclusion_tab        # conclusion page
 )
