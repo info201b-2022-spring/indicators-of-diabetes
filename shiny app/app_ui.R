@@ -253,7 +253,10 @@ bar_chart_tab <- tabPanel(
     sidebarPanel(
       # Select factor to analyze on bar graph
       selectInput(inputId = "bar_chart", label = strong("Select health indicator"),
-                  choices = colnames(diabetes_df), selected = "Income")
+                  choices = colnames(diabetes_df), selected = "Income"),
+      em("Notes:"),
+      p(em("* Income is on a scale of 1-8, where 1 = less than $10,000 5 = less than $
+        35,000 8 = $75,000 or more."))
     ),
     mainPanel(
       plotOutput(outputId = "income_bar_chart", click = "income_bar_click"),
