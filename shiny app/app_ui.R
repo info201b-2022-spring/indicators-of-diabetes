@@ -15,7 +15,6 @@ intro_tab <- tabPanel(
     imageOutput("diabetes_awareness_month"),
     br(), br(),
     a("Dataset Source", href = "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset"),
-    #HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
     p("The data set contains information about the indicators of diabetes for 253,680 survey 
     respondents. Indicators include factors such as cholesterol levels, BMI, and income. The 
     data was collected by the Centers for Disease Control and Prevention (CDC) via a telephone 
@@ -40,7 +39,8 @@ intro_tab <- tabPanel(
     strong("2. At what age range do people typically have diabetes? How does this compare to 
            people who are not diabetic, or are pre-diabetic?"),
     br(), br(),
-    strong("3. What health factors might influence the risk of diabetes?")
+    strong("3. What health factors might influence the risk of diabetes?"),
+    br(), br()
   )
 )
 
@@ -52,10 +52,10 @@ intro_tab <- tabPanel(
 #healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # path for brandon
-#healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 #path for roberto
-healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+#healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%
@@ -262,8 +262,8 @@ bar_chart_tab <- tabPanel(
 )
 
 # Page 2---------------------------------------------------------------
-violin_plot_tab <- tabPanel(
-  "Violin Plot",
+histogram_tab <- tabPanel(
+  "Histograms",
   titlePanel("Diabetes Clasification vs. BMI"),
   sidebarLayout(
     sidebarPanel(
@@ -272,7 +272,6 @@ violin_plot_tab <- tabPanel(
                   min = 10, max = 60, value = c(10, 60))#min = 1, max = 13, value = c(1, 13))
     ),
     mainPanel(
-      h3("Chart"),
       plotlyOutput(outputId = "violin")
     )
   )
@@ -325,7 +324,7 @@ stacked_bar_plots_vector <- c(plot3, plot3b, plot3c, plot3d, plot3e, plot3f, plo
 
 # create the tab
 stacked_bar_chart_tab <- tabPanel(
-  "Bar Chart Comparison",
+  "Stacked Bar Chart",
   titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
@@ -359,14 +358,24 @@ stacked_bar_chart_tab <- tabPanel(
 
 
 # Conclusion ----------------------------------------------------------
-# conclusion_tab <- 
+conclusion_tab <- tabPanel(
+  "Conclusion",
+  fluidPage(
+    h1("Summary Takeaways of Our Diabetes Analysis"),
+    br(),
+    imageOutput("diabetes_img"),
+    br(), br(),
+    p("The data set "),
+    br()
+    )
+)
 
 # Define UI
 ui <- navbarPage(
   "Diabetes Risk",      # application title 
   intro_tab,            # intro page
   bar_chart_tab,        # bar chart page
-  violin_plot_tab,      # violin plot page 
-  stacked_bar_chart_tab,         # box plot page 
-#  conclusion_tab        # conclusion page
+  histogram_tab,        # histogram page 
+  stacked_bar_chart_tab,# stacked bar chart page 
+  conclusion_tab        # conclusion page
 )

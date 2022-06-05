@@ -57,9 +57,9 @@ server <- function(input, output){
   output$violin <- renderPlotly({
     filter_df <- healthIndicators_df %>% filter(BMI %in% (input$age[1] : input$age[2]))#(Age %in% (input$age[1] : input$age[2]))
     filter_df$Diabetes_012 <- as.factor(filter_df$Diabetes_012)
-    violin_plot <- ggplot(data = filter_df, aes(x = Diabetes_012, y = BMI)) +
-      geom_violin() +
-      labs(title = "Diabetes Classification vs. Age", x = "Diabetes Classification", y = "BMI")
+    # violin_plot <- ggplot(data = filter_df, aes(x = Diabetes_012, y = BMI)) +
+    #   geom_violin() +
+    #   labs(title = "Diabetes Classification vs. Age", x = "Diabetes Classification", y = "BMI")
     
     #BMI Histogram
     BMI_histo <- ggplot(data = filter_df, aes(x=BMI, fill = Diabetes_012 )) +#color=text, fill=text)) +
@@ -76,11 +76,7 @@ server <- function(input, output){
       ylab("Count") +
       facet_wrap(vars(Diabetes_012), scales='free')
     
-      
-    
     #violin_plotly <- ggplotly(violin_plot) %>% config(displayModeBar = FALSE)
-    
-    
     #return(violin_plotly)
     
     BMI_plotly <- ggplotly(BMI_histo)
@@ -115,4 +111,10 @@ server <- function(input, output){
       return(plot3h)
     }
   })
+  
+  output$diabetes_img <- renderImage({
+    list(src = "diabetes_img.jpg",
+         width = "100%",
+         height = "100%")
+  }, deleteFile = F)
 }
