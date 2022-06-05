@@ -113,7 +113,7 @@ server <- function(input, output){
   })
   
   output$diabetes_img <- renderImage({
-    list(src = "diabetes_img.jpg",
+    list(src = "C:/Users/brand/INFO 201/final-projects-daniellatsing/diabetes_img.jpg",
          width = "100%",
          height = "100%")
   }, deleteFile = F)

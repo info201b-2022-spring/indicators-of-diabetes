@@ -10,6 +10,7 @@ library(plyr)
 intro_tab <- tabPanel(
   "Introduction",
   fluidPage(
+    theme = bs_theme(version = 4, bootswatch = "minty"),
     h1("As diabetes is so prevalent, what risk factors are most indicative of diabetes risk?"),
     br(),
     imageOutput("diabetes_awareness_month"),
@@ -245,7 +246,7 @@ bar_plots_vector <- c(plot1, plot1b, plot1c, plot1d, plot1e, plot1f, plot1g, plo
 
 # create the tab
 bar_chart_tab <- tabPanel(
-  "Bar Chart Comparison",
+  "Bar Charts",
   titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
@@ -372,6 +373,7 @@ conclusion_tab <- tabPanel(
 
 # Define UI
 ui <- navbarPage(
+  theme = bs_theme(version = 4, bootswatch = "minty"),
   "Diabetes Risk",      # application title 
   intro_tab,            # intro page
   bar_chart_tab,        # bar chart page
