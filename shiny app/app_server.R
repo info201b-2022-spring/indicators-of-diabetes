@@ -17,13 +17,16 @@ library(forcats)
 
 # path for daniella
 # healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
-healthIndicators_df <- read.csv("C:/Users/Daniella/Documents/School/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+# healthIndicators_df <- read.csv("C:/Users/Daniella/Documents/School/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # path for brandon
 # healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # path for roberto
 # healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+
+# relative path for Shiny publish
+healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%

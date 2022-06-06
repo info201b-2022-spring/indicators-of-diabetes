@@ -167,23 +167,23 @@ conclusion_tab <- tabPanel(
     br(),
     HTML('<img src="diabetes_img.jpg" alt="Diabetes Image" id="picture">'),
     br(), br(),
-    p("1. Most of the respondents in the telephone survey had no diabetes. Although the “No Diabetes”
-    group appears to be highest in the bar graphs, this is due to the fact that there are more non-diabetic
-    respondents compared to pre-diabetic and diabetic respondents. The number of non-diabetic respondents
-    (213,703) outnumbers the number of pre-diabetic (4,631) and diabetic (35,346) respondents. Therefore,
-    we cannot use the bar graphs to compare the diabetic classifications relative to one another. Instead,
-    we can use the bar graphs to look only at each classification separately and note how frequency changes
-    across the different variables on the horizontal axis. For example, choosing to look at just diabetes,
-    we see that people with diabetes tend to have higher blood pressure and cholesterol."),
+    p("1. The vast majority of the respondents in the telephone survey had no diabetes, which led to the
+      'No Diabetes' group being the highest in the bar graphs compared to the pre-diabetic and diabetic
+      groups. The number of non-diabetic respondents (213,703) outnumbers the number of pre-diabetic (4,631)
+      and diabetic (35,346) respondents. Therefore, we cannot use the bar graphs to compare the diabetic
+      classifications relative to one another. Instead, we can use the bar graphs to look only at each
+      classification separately and note how frequency changes across the different variables on the horizontal
+      axis. For example, choosing to look at just diabetes, we see that people with diabetes tend to have
+      higher blood pressure and cholesterol."),
     br(),
-    p("2. From the three histograms, we can see that relative to the non-diabetic group, the plots for the
-    pre-diabetic and diabetic groups are shifted to the right, giving us evidence that people who are
-    pre-diabetic and diabetic tend to have a higher body mass index (BMI)."),
+    p("2. From the three histograms, we can see that relative to the non-diabetic group, the plots for
+      the pre-diabetic and diabetic groups are shifted to the right, giving us evidence that people
+      who are pre-diabetic and diabetic tend to have a higher body mass index (BMI)."),
     br(),
     p("3. Analyzing the box plots, we can see that the diabetic respondents have a greater range of days
-      in which they reported poor physical health. Moreover, the median days of poor physical health
-      for diabetic patients is much higher compared to the other two groups. This observation shows
-      that physical health may have a link to diabetes."),
+      in which they reported poor physical health. Moreover, the median days of poor physical health for
+      diabetic patients is much higher compared to the other two groups. This observation shows that
+      physical health may have a link to diabetes."),
     br()
     )
 )
