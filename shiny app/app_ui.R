@@ -10,12 +10,12 @@ library(plyr)
 intro_tab <- tabPanel(
   "Introduction",
   fluidPage(
+    theme = bs_theme(version = 4, bootswatch = "minty"),
     h1("As diabetes is so prevalent, what risk factors are most indicative of diabetes risk?"),
     br(),
     imageOutput("diabetes_awareness_month"),
     br(), br(),
     a("Dataset Source", href = "https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset"),
-    #HTML('<a href="https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset" class="link-text"> Data is aggregated from the Behavioral Risk Factor Surveillance System (BRFSS) survey<\a>'),
     p("The data set contains information about the indicators of diabetes for 253,680 survey 
     respondents. Indicators include factors such as cholesterol levels, BMI, and income. The 
     data was collected by the Centers for Disease Control and Prevention (CDC) via a telephone 
@@ -40,16 +40,23 @@ intro_tab <- tabPanel(
     strong("2. At what age range do people typically have diabetes? How does this compare to 
            people who are not diabetic, or are pre-diabetic?"),
     br(), br(),
-    strong("3. What health factors might influence the risk of diabetes?")
+    strong("3. What health factors might influence the risk of diabetes?"),
+    br(), br()
   )
 )
 
 # Data Cleaning--------------------------------------------------------
 
 # load in data
-healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
-# setwd("C:/Users/brand/INFO 201/final-projects-daniellatsing/data") # path for brandon
-# healthIndicators_df <- read.csv("diabetes_012_health_indicators_BRFSS2015.csv")
+
+# path for daniella
+#healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+
+# path for brandon
+healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+
+#path for roberto
+#healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # cleaned dataframes
 diabetes_df <- na.omit(healthIndicators_df) %>%
@@ -239,14 +246,17 @@ bar_plots_vector <- c(plot1, plot1b, plot1c, plot1d, plot1e, plot1f, plot1g, plo
 
 # create the tab
 bar_chart_tab <- tabPanel(
-  "Bar Chart Comparison",
+  "Bar Charts",
   titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
     sidebarPanel(
       # Select factor to analyze on bar graph
       selectInput(inputId = "bar_chart", label = strong("Select health indicator"),
-                  choices = colnames(diabetes_df), selected = "Income")
+                  choices = colnames(diabetes_df), selected = "Income"),
+      em("Notes:"),
+      p(em("* Income is on a scale of 1-8, where 1 = less than $10,000 5 = less than $
+        35,000 8 = $75,000 or more."))
     ),
     mainPanel(
       plotOutput(outputId = "income_bar_chart", click = "income_bar_click"),
@@ -256,17 +266,16 @@ bar_chart_tab <- tabPanel(
 )
 
 # Page 2---------------------------------------------------------------
-violin_plot_tab <- tabPanel(
-  "Violin Plot",
-  titlePanel("Diabetes Clasification vs. Income"),
+histogram_tab <- tabPanel(
+  "Histograms",
+  titlePanel("Diabetes Clasification vs. BMI"),
   sidebarLayout(
     sidebarPanel(
       sliderInput(inputId = "age", 
-                  label = "Age groups from 1 - 13",
-                  min = 1, max = 13, value = c(1, 13))
+                  label = "BMI from 10 to 60",
+                  min = 10, max = 60, value = c(10, 60))#min = 1, max = 13, value = c(1, 13))
     ),
     mainPanel(
-      h3("Chart"),
       plotlyOutput(outputId = "violin")
     )
   )
@@ -275,30 +284,103 @@ violin_plot_tab <- tabPanel(
 # Page 3---------------------------------------------------------------
 # plot3 <-
 
-box_plot_tab <- tabPanel(
-  "Box Plots",
-  titlePanel("Income vs. BMI"),
+plot3 <- ggplot(data = income_df, aes(fill=Income, y=freq, x=classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Median Household Income on Scale of 1-8", x = "Diabetes Classification", y = "Income Level")
+plot(plot1)
+
+plot3b <- ggplot(data = age_df, aes(fill = Age, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Age & Diabetes Classification", x = "Age (years)", y = "Frequency")
+plot(plot1b)
+
+plot3c <- ggplot(data = sex_df, aes(fill = Sex, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Sex & Diabetes Classification", x = "Sex", y = "Frequency")
+plot(plot1c)
+
+plot3d <- ggplot(data = bmi_df, aes(fill = BMI, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "BMI & Diabetes Classification", x = "BMI", y = "Frequency")
+plot(plot1d)
+
+plot3e <- ggplot(data = smoker_df, aes(fill = Smoker, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Smoking Habits", x = "Has Smoked At Least 100 Cigarettes in Lifetime", y = "Frequency")
+plot(plot1e)
+
+plot3f <- ggplot(data = bp_df, aes(xfill= HighBP, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "High Blood Pressure & Diabetes Classification", x = "Has High Blood Pressure", y = "Frequency")
+plot(plot1f)
+
+plot3g <- ggplot(data = chol_df, aes(fill = HighChol, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "High Cholesterol & Diabetes Classification", x = "Has High Cholesterol", y = "Frequency")
+plot(plot1g)
+
+plot3h <- ggplot(data = heart_df, aes(fill = HeartDiseaseorAttack, y = freq, x = classification)) +
+  geom_bar(position="fill", stat="identity") +
+  labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
+plot(plot1h)
+
+stacked_bar_plots_vector <- c(plot3, plot3b, plot3c, plot3d, plot3e, plot3f, plot3g, plot3h)
+
+# create the tab
+stacked_bar_chart_tab <- tabPanel(
+  "Stacked Bar Chart",
+  titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
     sidebarPanel(
-      selectInput(inputId = "select", label = strong("Select Health Indicator"),
-                  choices = colnames(diabetes_df))
+      # Select factor to analyze on bar graph
+      selectInput(inputId = "stacked_bar_input", label = strong("Select health indicator"),
+                  choices = colnames(diabetes_df), selected = "Income")
     ),
     mainPanel(
-      h3("Chart")
+      plotOutput(outputId = "stacked_barplot", click = "stacked_bar_click"),
+      tableOutput(outputId = "stacked_table")
     )
   )
 )
 
+#box_plot_tab <- tabPanel(
+#  "Box Plots",
+#  titlePanel("Income vs. BMI"),
+#  
+#  sidebarLayout(
+#    sidebarPanel(
+#      selectInput(inputId = "select", label = strong("Select Health Indicator"),
+#                  choices = colnames(diabetes_df))
+#    ),
+#    mainPanel(
+#      h3("Chart")
+#    )
+#  )
+#)
+
+
+
 # Conclusion ----------------------------------------------------------
-# conclusion_tab <- 
+conclusion_tab <- tabPanel(
+  "Conclusion",
+  fluidPage(
+    h1("Summary Takeaways of Our Diabetes Analysis"),
+    br(),
+    imageOutput("diabetes_img"),
+    br(), br(),
+    p("The data set "),
+    br()
+    )
+)
 
 # Define UI
 ui <- navbarPage(
+  theme = bs_theme(version = 4, bootswatch = "minty"),
   "Diabetes Risk",      # application title 
   intro_tab,            # intro page
   bar_chart_tab,        # bar chart page
-  violin_plot_tab,      # violin plot page 
-  box_plot_tab,         # box plot page 
-#  conclusion_tab        # conclusion page
+  histogram_tab,        # histogram page 
+  stacked_bar_chart_tab,# stacked bar chart page 
+  conclusion_tab        # conclusion page
 )
