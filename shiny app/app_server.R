@@ -375,9 +375,9 @@ server <- function(input, output){
     education_box_ggplot(data = edu_filter_df, aes(x = Diabetes_012, y = Education)) +
       geom_boxplot(outlier.color = "black", outlier.shape = 16,
                    outlier.size = 2, notch = FALSE) +
-      scale_fill_viridis(discrete=TRUE) +
-      scale_color_viridis(discrete=TRUE) +
-      theme_ipsum() +
+      #scale_fill_viridis(discrete=TRUE) +
+      #scale_color_viridis(discrete=TRUE) +
+      #theme_ipsum() +
       #theme(
         #legend.position ="none",
         #strip.text.x = element_text(size = 8)
