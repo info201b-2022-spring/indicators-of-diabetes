@@ -264,12 +264,6 @@ stacked_bar_plots_vector <- c(plot3, plot3b, plot3c, plot3d, plot3e, plot3f, plo
 
 # Define server logic
 server <- function(input, output){
-
-  output$diabetes_awareness_month <- renderImage({
-    list(src = "www/diabetes-awareness-month.jpeg",
-    width = "100%",
-    height = "100%")
-  }, deleteFile = F)
   
   # Define bar chart to render in the UI
   output$income_bar_chart <- renderPlotly({
@@ -300,16 +294,12 @@ server <- function(input, output){
     }
   })
   
-  # Violin plot (UNUSED)
-  output$violin <- renderPlotly({
-    filter_df <- healthIndicators_df %>% filter(BMI %in% (input$age[1] : input$age[2]))#(Age %in% (input$age[1] : input$age[2]))
+  output$histo <- renderPlotly({
+    filter_df <- healthIndicators_df %>% filter(BMI %in% (input$age[1] : input$age[2]))
     filter_df$Diabetes_012 <- as.factor(filter_df$Diabetes_012)
-    # violin_plot <- ggplot(data = filter_df, aes(x = Diabetes_012, y = BMI)) +
-    #   geom_violin() +
-    #   labs(title = "Diabetes Classification vs. Age", x = "Diabetes Classification", y = "BMI")
     
     #BMI Histogram
-    BMI_histo <- ggplot(data = filter_df, aes(x=BMI, fill = Diabetes_012 )) +#color=text, fill=text)) +
+    BMI_histo <- ggplot(data = filter_df, aes(x=BMI, fill = Diabetes_012 )) +
       geom_histogram(alpha=0.6, binwidth = 1) +
       scale_fill_viridis(discrete=TRUE) +
       scale_color_viridis(discrete=TRUE) +
@@ -322,9 +312,6 @@ server <- function(input, output){
       xlab("BMI") +
       ylab("Count") +
       facet_wrap(vars(Diabetes_012), scales='free')
-    
-    #violin_plotly <- ggplotly(violin_plot) %>% config(displayModeBar = FALSE)
-    #return(violin_plotly)
     
     BMI_plotly <- ggplotly(BMI_histo)
     return(BMI_plotly)
@@ -359,38 +346,18 @@ server <- function(input, output){
     }
   })
   
-  # Box Plot
-  #nd_box_filter_df <- filter_df$Diabetes_012 <- as.factor(filter_df$Diabetes_012)
-  
-  #boxplot0 <-plot_ly(nd_box_filter_df, x = ~BMI, y = ~Sex, type = "box", quartilemethod="exclusive")
-  #plot(boxplot0)
-  #boxplot1 <-plot_ly(y = pre_diabetes_df$BMI, type = "box", quartilemethod="exclusive")
-  #boxplot2 <-plot_ly(y = diabetes_df$BMI, type = "box", quartilemethod="exclusive")
-  
-  
-  output$box_plot <- renderPlotly({
-    # edu_filter_df <- healthIndicators_df %>% filter(Education)
+  output$edu_box_plot <- renderPlotly({
+    edu_filter_df <- healthIndicators_df
     edu_filter_df$Diabetes_012 <- as.factor(edu_filter_df$Diabetes_012)
     
-    education_box_ggplot(data = edu_filter_df, aes(x = Diabetes_012, y = Education)) +
-      geom_boxplot(aes(color = input$color)) +
-      # geom_boxplot(outlier.color = "black", outlier.shape = 16,
-      #              outlier.size = 2, notch = FALSE) +
-      #scale_fill_viridis(discrete=TRUE) +
-      #scale_color_viridis(discrete=TRUE) +
+    ggplot(data = edu_filter_df, aes(x = Diabetes_012, y = PhysHlth)) +
+      geom_boxplot(color = "black", fill=input$color) +
       #theme_ipsum() +
       #theme(
         #legend.position ="none",
         #strip.text.x = element_text(size = 8)
       #) +
       xlab("Diabetes Classification") +
-      ylab("Education Scale")
-  
-  output$diabetes_img <- renderImage({
-    list(src = "C:/Users/brand/INFO 201/final-projects-daniellatsing/diabetes_img.jpg",
-         width = "100%",
-         height = "100%")
-  }, deleteFile = F)
-})
-
+      ylab("Days**")
+  })
 }
