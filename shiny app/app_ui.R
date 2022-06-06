@@ -281,13 +281,9 @@ histogram_tab <- tabPanel(
     sidebarPanel(
       sliderInput(inputId = "age", 
                   label = "BMI from 10 to 60",
-<<<<<<< HEAD
-                  min = 10, max = 60, value = c(10, 60))
-=======
-                  min = 10, max = 60, value = c(10, 60)), #min = 1, max = 13, value = c(1, 13))
+                  min = 10, max = 60, value = c(10, 60)),
       em("Notes:"),
       p(em("* Diabetes classifications are in 0, 1, 2 where 0 = No Diabetes, 1 = Pre-Diabetes, 2 = Diabetes"))
->>>>>>> 8f79fbde0b055fff18763b0a4b65a98e3f5a8b1f
     ),
     mainPanel(
       plotlyOutput(outputId = "violin")
