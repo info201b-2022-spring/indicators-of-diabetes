@@ -45,6 +45,7 @@ intro_tab <- tabPanel(
   )
 )
 
+<<<<<<< HEAD
 # Data Cleaning--------------------------------------------------------
 
 # load in data
@@ -199,62 +200,12 @@ heart_df <- bind_rows(no_diabetes_heart_df, pre_diabetes_heart_df, diabetes_hear
 
 merged_df <- merge(income_df, age_df, by = "classification")
 
+=======
+>>>>>>> 28bc0985a3b50f1c31ad4b83beb1fe709184a1e9
 # Page 1---------------------------------------------------------------
-
-# create the bar plots
-plot1 <- ggplot(data = income_df, aes(x = Income, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "Median Household Income on Scale of 1-8", x = "Scale", y = "Frequency")
-plot(plot1)
-plotly1 <- ggplotly(plot1)
-
-plot1b <- ggplot(data = age_df, aes(x = Age, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "Age & Diabetes Classification", x = "Age (years)", y = "Frequency")
-plot(plot1b)
-plotly1b <- ggplotly(plot1b)
-
-plot1c <- ggplot(data = sex_df, aes(x = Sex, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "Sex & Diabetes Classification", x = "Sex", y = "Frequency")
-plot(plot1c)
-plotly1c <- ggplotly(plot1c)
-
-plot1d <- ggplot(data = bmi_df, aes(x = BMI, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "BMI & Diabetes Classification", x = "BMI", y = "Frequency")
-plot(plot1d)
-plotly1d <- ggplotly(plot1d)
-
-plot1e <- ggplot(data = smoker_df, aes(x = Smoker, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "Smoking Habits", x = "Has Smoked At Least 100 Cigarettes in Lifetime", y = "Frequency")
-plot(plot1e)
-plotly1e <- ggplotly(plot1e)
-
-plot1f <- ggplot(data = bp_df, aes(x = HighBP, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "High Blood Pressure & Diabetes Classification", x = "Has High Blood Pressure", y = "Frequency")
-plot(plot1f)
-plotly1f <- ggplotly(plot1f)
-
-plot1g <- ggplot(data = chol_df, aes(x = HighChol, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "High Cholesterol & Diabetes Classification", x = "Has High Cholesterol", y = "Frequency")
-plot(plot1g)
-plotly1g <- ggplotly(plot1g)
-
-plot1h <- ggplot(data = heart_df, aes(x = HeartDiseaseorAttack, y = freq, fill = classification)) +
-  geom_col(position = position_dodge())  +
-  labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
-plot(plot1h)
-plotly1h <- ggplotly(plot1h)
-
-bar_plots_vector <- c(plot1, plot1b, plot1c, plot1d, plot1e, plot1f, plot1g, plot1h)
-
 # create the tab
 bar_chart_tab <- tabPanel(
-  "Bar Charts",
+  "Bar Chart",
   titlePanel("Comparing Different Factors"),
   
   sidebarLayout(
@@ -263,8 +214,16 @@ bar_chart_tab <- tabPanel(
       selectInput(inputId = "bar_chart", label = strong("Select health indicator"),
                   choices = colnames(diabetes_df), selected = "Income"),
       em("Notes:"),
-      p(em("* Income is on a scale of 1-8, where 1 = less than $10,000 5 = less than $
-        35,000 8 = $75,000 or more."))
+      p(em("* Income is on a scale of 1-8, where 1 = less than $10,000, 5 = less than $
+        35,000, 8 = $75,000 or more.")),
+      p(em("* Age is on a scale of 1-13, where 1 = ages 18-24, 9 = ages 60-64, 13 = ages 80 or older.")),
+      p(em("* Sex is on a scale of 0-1, where 0 = females, 1 = males.")),
+      p(em("* Smoker is on a scale of 0-1, representing if the person has smoked at least
+        100 ciagarettes in their entire life, where 0 = no, 1 = yes.")),
+      p(em("* High BP is on a scale of 0-1, where 0 = no high BP, 1 = high BP.")),
+      p(em("* High Chol is on a scale of 0-1, where 0 = no high cholesterol, 1 = high cholesterol.")),
+      p(em("* Heart Disease or Attack is on a scale of 0-1, representing if the person has coronary heart disease
+        (CHD) or myocardial infarction (MD), where 0 = no, 1 = yes.")),
     ),
     mainPanel(
       plotlyOutput(outputId = "income_bar_chart"),
@@ -292,50 +251,6 @@ histogram_tab <- tabPanel(
 )
 
 # Page 3---------------------------------------------------------------
-# plot3 <-
-
-plot3 <- ggplot(data = income_df, aes(fill=Income, y=freq, x=classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "Median Household Income on Scale of 1-8", x = "Diabetes Classification", y = "Income Level")
-plot(plot1)
-
-plot3b <- ggplot(data = age_df, aes(fill = Age, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "Age & Diabetes Classification", x = "Age (years)", y = "Frequency")
-plot(plot1b)
-
-plot3c <- ggplot(data = sex_df, aes(fill = Sex, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "Sex & Diabetes Classification", x = "Sex", y = "Frequency")
-plot(plot1c)
-
-plot3d <- ggplot(data = bmi_df, aes(fill = BMI, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "BMI & Diabetes Classification", x = "BMI", y = "Frequency")
-plot(plot1d)
-
-plot3e <- ggplot(data = smoker_df, aes(fill = Smoker, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "Smoking Habits", x = "Has Smoked At Least 100 Cigarettes in Lifetime", y = "Frequency")
-plot(plot1e)
-
-plot3f <- ggplot(data = bp_df, aes(xfill= HighBP, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "High Blood Pressure & Diabetes Classification", x = "Has High Blood Pressure", y = "Frequency")
-plot(plot1f)
-
-plot3g <- ggplot(data = chol_df, aes(fill = HighChol, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "High Cholesterol & Diabetes Classification", x = "Has High Cholesterol", y = "Frequency")
-plot(plot1g)
-
-plot3h <- ggplot(data = heart_df, aes(fill = HeartDiseaseorAttack, y = freq, x = classification)) +
-  geom_bar(position="fill", stat="identity") +
-  labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
-plot(plot1h)
-
-stacked_bar_plots_vector <- c(plot3, plot3b, plot3c, plot3d, plot3e, plot3f, plot3g, plot3h)
-
 # create the tab
 stacked_bar_chart_tab <- tabPanel(
   "Stacked Bar Chart",
@@ -345,7 +260,18 @@ stacked_bar_chart_tab <- tabPanel(
     sidebarPanel(
       # Select factor to analyze on bar graph
       selectInput(inputId = "stacked_bar_input", label = strong("Select health indicator"),
-                  choices = colnames(diabetes_df), selected = "Income")
+                  choices = colnames(diabetes_df), selected = "Income"),
+      em("Notes:"),
+      p(em("* Income is on a scale of 1-8, where 1 = less than $10,000, 5 = less than $
+        35,000, 8 = $75,000 or more.")),
+      p(em("* Age is on a scale of 1-13, where 1 = ages 18-24, 9 = ages 60-64, 13 = ages 80 or older.")),
+      p(em("* Sex is on a scale of 0-1, where 0 = females, 1 = males.")),
+      p(em("* Smoker is on a scale of 0-1, representing if the person has smoked at least
+        100 ciagarettes in their entire life, where 0 = no, 1 = yes.")),
+      p(em("* High BP is on a scale of 0-1, where 0 = no high BP, 1 = high BP.")),
+      p(em("* High Chol is on a scale of 0-1, where 0 = no high cholesterol, 1 = high cholesterol.")),
+      p(em("* Heart Disease or Attack is on a scale of 0-1, representing if the person has coronary heart disease
+        (CHD) or myocardial infarction (MD), where 0 = no, 1 = yes.")),
     ),
     mainPanel(
       plotOutput(outputId = "stacked_barplot", click = "stacked_bar_click"),
@@ -370,7 +296,36 @@ box_plot_tab <- tabPanel(
  )
 )
 
-
+# Page 4---------------------------------------------------------------
+box_plot_tab <- tabPanel(
+  "Box Plot Distribution",
+  titlePanel("How does Education relate to Diabetes?"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput(
+        inputId = "color",
+        label = "Select color",
+        c("Red",
+          "Blue",
+          "Orange",
+          "Green",
+          "Purple",
+          "Pink",
+          "Yellow",
+          "Grey"
+          )
+        ),
+      em("Notes:"),
+      p(em("* Education is on a scale of 1-6, where 1 = never attend school or only kindergarten, 
+           2 = grades 1-8 (Elementary and secondary), 3 = grades 9-11 (Some high school), 4 = grades 
+           12 or GED (High school graduate), 5 = college 1 year to 3 years (Some college or technical 
+           school), 6 = college 4 years or more (College graduate)"))
+    ),
+    mainPanel(
+      plotlyOutput(outputId = "edu_box_plot")
+    )
+  )
+)
 
 # Conclusion ----------------------------------------------------------
 conclusion_tab <- tabPanel(
