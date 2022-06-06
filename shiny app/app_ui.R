@@ -50,10 +50,10 @@ intro_tab <- tabPanel(
 # load in data
 
 # path for daniella
-#healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+healthIndicators_df <- read.csv("/Users/daniella/Desktop/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 # path for brandon
-healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
+# healthIndicators_df <- read.csv("C:/Users/brand/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
 
 #path for roberto
 #healthIndicators_df <- read.csv("C:/Users/rober/Documents/College/Year 2/Quarter 3/INFO 201/final-projects-daniellatsing/data/diabetes_012_health_indicators_BRFSS2015.csv")
@@ -273,7 +273,9 @@ histogram_tab <- tabPanel(
     sidebarPanel(
       sliderInput(inputId = "age", 
                   label = "BMI from 10 to 60",
-                  min = 10, max = 60, value = c(10, 60))#min = 1, max = 13, value = c(1, 13))
+                  min = 10, max = 60, value = c(10, 60)), #min = 1, max = 13, value = c(1, 13))
+      em("Notes:"),
+      p(em("* Diabetes classifications are in 0, 1, 2 where 0 = No Diabetes, 1 = Pre-Diabetes, 2 = Diabetes"))
     ),
     mainPanel(
       plotlyOutput(outputId = "violin")
