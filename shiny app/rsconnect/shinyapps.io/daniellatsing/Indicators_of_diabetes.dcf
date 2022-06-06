@@ -5,9 +5,9 @@ account: daniellatsing
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 6437243
-bundleId: 5980979
+bundleId: 5981011
 url: https://daniellatsing.shinyapps.io/Indicators_of_diabetes/
-when: 1654498508.36997
-lastSyncTime: 1654498508.36999
+when: 1654498934.50653
+lastSyncTime: 1654498934.50654
 asMultiple: FALSE
 asStatic: FALSE

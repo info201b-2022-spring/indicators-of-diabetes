@@ -181,10 +181,15 @@ conclusion_tab <- tabPanel(
       who are pre-diabetic and diabetic tend to have a higher body mass index (BMI)."),
     br(),
     p("3. Analyzing the box plots, we can see that the diabetic respondents have a greater range of days
-      in which they reported poor physical health. Moreover, the median days of poor physical health for
-      diabetic patients is much higher compared to the other two groups. This observation shows that
-      physical health may have a link to diabetes."),
-    br()
+      in which they reported poor physical health. However, the median days of poor physical health for
+      diabetic patients is only slightly higher compared to the other two groups. This observation shows
+      that physical health may have a link to diabetes, but that many people with diabetes don't suffer
+      from poor health."),
+    br(),
+    p("4. The stacked barplots allowed us to more easily compare the different diabetes classifications
+      relative to each other, as the graphs are percentage-based instead of quantity-based. From the plots,
+      we can tell that people without diabetes tend to have higher income and are younger, while people
+      with diabetes are more likely to have high cholesterol and have heart attacks.")
     )
 )
 
