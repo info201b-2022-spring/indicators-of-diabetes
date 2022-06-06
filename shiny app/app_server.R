@@ -21,37 +21,33 @@ server <- function(input, output){
   }, deleteFile = F)
   
   # Define bar chart to render in the UI
-  output$income_bar_chart <- renderPlot({
+  output$income_bar_chart <- renderPlotly({
     
     if (input$bar_chart == "Income"){
-      return(plot1)
+      return(plotly1)
     }
     if (input$bar_chart == "Age"){
-      return(plot1b)
+      return(plotly1b)
     }
     if(input$bar_chart == "Sex"){
-      return(plot1c)
+      return(plotly1c)
     }
     if(input$bar_chart == "BMI"){
-      return(plot1d)
+      return(plotly1d)
     }
     if(input$bar_chart == "Smoker"){
-      return(plot1e)
+      return(plotly1e)
     }
     if(input$bar_chart == "HighBP"){
-      return(plot1f)
+      return(plotly1f)
     }
     if(input$bar_chart == "HighChol"){
-      return(plot1g)
+      return(plotly1g)
     }
     if(input$bar_chart == "HeartDiseaseorAttack"){
-      return(plot1h)
+      return(plotly1h)
     }
   })
-  
-  # output$income_table <- renderTable({
-  #   nearPoints(income_df, input$income_bar_click, xvar = "Income", yvar = "freq")
-  # })
   
   # Violin plot (UNUSED)
   output$violin <- renderPlotly({
@@ -109,6 +105,28 @@ server <- function(input, output){
     }
     if(input$stacked_bar_input == "HeartDiseaseorAttack"){
       return(plot3h)
+    }
+  })
+  
+  # Box Plot
+  nd_box_filter_df <- no_diabetes_df %>% 
+    select(Sex, BMI)
+  
+  boxplot0 <-plot_ly(nd_box_filter_df, x = ~BMI, y = ~Sex, type = "box", quartilemethod="exclusive")
+  plot(boxplot0)
+  boxplot1 <-plot_ly(y = pre_diabetes_df$BMI, type = "box", quartilemethod="exclusive")
+  boxplot2 <-plot_ly(y = diabetes_df$BMI, type = "box", quartilemethod="exclusive")
+  
+  
+  output$box_plot <- renderPlotly({
+    if(input$class == "No Diabetes"){
+      return(boxplot0)
+    }
+    if(input$class == "Pre-Diabetes"){
+      return(boxplot1)
+    }
+    if(input$class == "Diabetes"){
+      return(boxplot2)
     }
   })
   

@@ -206,41 +206,49 @@ plot1 <- ggplot(data = income_df, aes(x = Income, y = freq, fill = classificatio
   geom_col(position = position_dodge())  +
   labs(title = "Median Household Income on Scale of 1-8", x = "Scale", y = "Frequency")
 plot(plot1)
+plotly1 <- ggplotly(plot1)
 
 plot1b <- ggplot(data = age_df, aes(x = Age, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "Age & Diabetes Classification", x = "Age (years)", y = "Frequency")
 plot(plot1b)
+plotly1b <- ggplotly(plot1b)
 
 plot1c <- ggplot(data = sex_df, aes(x = Sex, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "Sex & Diabetes Classification", x = "Sex", y = "Frequency")
 plot(plot1c)
+plotly1c <- ggplotly(plot1c)
 
 plot1d <- ggplot(data = bmi_df, aes(x = BMI, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "BMI & Diabetes Classification", x = "BMI", y = "Frequency")
 plot(plot1d)
+plotly1d <- ggplotly(plot1d)
 
 plot1e <- ggplot(data = smoker_df, aes(x = Smoker, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "Smoking Habits", x = "Has Smoked At Least 100 Cigarettes in Lifetime", y = "Frequency")
 plot(plot1e)
+plotly1e <- ggplotly(plot1e)
 
 plot1f <- ggplot(data = bp_df, aes(x = HighBP, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "High Blood Pressure & Diabetes Classification", x = "Has High Blood Pressure", y = "Frequency")
 plot(plot1f)
+plotly1f <- ggplotly(plot1f)
 
 plot1g <- ggplot(data = chol_df, aes(x = HighChol, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "High Cholesterol & Diabetes Classification", x = "Has High Cholesterol", y = "Frequency")
 plot(plot1g)
+plotly1g <- ggplotly(plot1g)
 
 plot1h <- ggplot(data = heart_df, aes(x = HeartDiseaseorAttack, y = freq, fill = classification)) +
   geom_col(position = position_dodge())  +
   labs(title = "Heart Complications", x = "Had Coronary Heart Disease or Myocardial Infarction", y = "Frequency")
 plot(plot1h)
+plotly1h <- ggplotly(plot1h)
 
 bar_plots_vector <- c(plot1, plot1b, plot1c, plot1d, plot1e, plot1f, plot1g, plot1h)
 
@@ -259,7 +267,7 @@ bar_chart_tab <- tabPanel(
         35,000 8 = $75,000 or more."))
     ),
     mainPanel(
-      plotOutput(outputId = "income_bar_chart", click = "income_bar_click"),
+      plotlyOutput(outputId = "income_bar_chart"),
       tableOutput(outputId = "income_table")
     )
   )
@@ -273,7 +281,7 @@ histogram_tab <- tabPanel(
     sidebarPanel(
       sliderInput(inputId = "age", 
                   label = "BMI from 10 to 60",
-                  min = 10, max = 60, value = c(10, 60))#min = 1, max = 13, value = c(1, 13))
+                  min = 10, max = 60, value = c(10, 60))
     ),
     mainPanel(
       plotlyOutput(outputId = "violin")
@@ -344,20 +352,21 @@ stacked_bar_chart_tab <- tabPanel(
   )
 )
 
-#box_plot_tab <- tabPanel(
-#  "Box Plots",
-#  titlePanel("Income vs. BMI"),
-#  
-#  sidebarLayout(
-#    sidebarPanel(
-#      selectInput(inputId = "select", label = strong("Select Health Indicator"),
-#                  choices = colnames(diabetes_df))
-#    ),
-#    mainPanel(
-#      h3("Chart")
-#    )
-#  )
-#)
+box_plot_tab <- tabPanel(
+ "BMI Data Distribution",
+ titlePanel("Income vs. BMI"),
+
+ sidebarLayout(
+   sidebarPanel(
+     selectInput(inputId = "class", label = strong("Select diabetes classification"),
+                 choices = list("No Diabetes" = 1, "Pre-Diabetes" = 2, "Diabetes" = 3),
+                 selected = 1)
+   ),
+   mainPanel(
+     plotlyOutput(outputId = "box_plot")
+   )
+ )
+)
 
 
 
@@ -382,5 +391,6 @@ ui <- navbarPage(
   bar_chart_tab,        # bar chart page
   histogram_tab,        # histogram page 
   stacked_bar_chart_tab,# stacked bar chart page 
+  box_plot_tab,         # box plot page 
   conclusion_tab        # conclusion page
 )
